@@ -1,0 +1,44 @@
+#include included_file.txt
+
+class temp_class_1 {
+     integer a, b;
+     array_1=new char[20];
+     
+     /* Comments. */
+     
+     protected temp_class_1(integer var_1){          
+          integer temp=abcd/(efgh%(a+b));
+     }
+     
+     abstract void method_1(integer p, char k){
+          integer var_2; /* Comments. */
+         
+          if(var_2>=p){
+               calculation=1231231-(-123123);
+          }
+         
+          if(k || calculation);
+          
+          while(!abc<(-12)){
+               array_1[232]=(+23230);
+          }
+     }
+}
+
+/* Comments. */
+/* Comments. */
+
+class temp_class_2 {
+     integer var_3;
+     
+     public temp_class_2(char x){
+          this(xyz);
+     }
+     
+     /* Comments. */
+     final void method_2(char y){
+          char temp_char='\n\t\0\\\'\"';
+          
+          return temp_char;
+     }
+}

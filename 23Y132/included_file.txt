@@ -1,0 +1,12 @@
+class included_class {
+     integer var_4;
+     
+     public included_class(char a){
+          this(klmnop);
+     }
+     
+     /* Comments. */
+     final void method_3(char b){
+          integer b=3;
+     }
+}
