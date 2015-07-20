@@ -209,7 +209,7 @@ while_statement_no_short: WHILE LEFT_PAR conditional_expression RIGHT_PAR statem
 return_statement: RETURN expression
                 ;
                 
-/*********************************************************************************************************************/
+/***********************************************************************************************************************/
 
 expression: number
           | _IDENT
