@@ -1,4 +1,4 @@
-#### (23Y132) Principles of Programming Languages & Compilers
+#### (23Y132) - Principles of Programming Languages & Compilers
 This repository contains the course project for the academic period of 2012-2013, done by
 [George Kaffezas](https://github.com/gkffzs) and [Anastasia Paparrodopoulou](https://github.com/paparrodop-anast).
 It's an implementation of a parser for an imaginary object-oriented language called "Simon", created using
@@ -12,3 +12,6 @@ typing the following commands in a terminal:
 - `gcc -c y.tab.c lex.yy.c`
 - `gcc y.tab.o lex.yy.o -o parser`
 - `./parser input_file.txt`
+
+The `output_file.txt` includes the output you're expecting, and the `included_file.txt` is the file that, as its name
+suggests, is included in the beginning of `input_file.txt`.
