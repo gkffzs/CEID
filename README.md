@@ -10,22 +10,22 @@ the undergraduate program at CEID. The complete course list can be found
 [here](https://www.ceid.upatras.gr/en/undergraduate/courses). Note that the course number points to the course 
 repository, where any related code is contained, whereas the course name points to the course's website. So, in
 alphabetical order:
-- (23387E) [Computer Networks Laboratory](https://www.ceid.upatras.gr/en/undergraduate/courses/23387%CE%95)
-- (23Y384) [Digital Communications](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5384)
-- (23Y381) [Digital Signal Processing](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5381)
-- (23Y538) [Internet Technologies](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5538)
-- (23Y282) [Introduction to the Theory of Signals and Systems](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5282)
-- (023444) [Knowledge Representation on World Wide Web](https://www.ceid.upatras.gr/en/undergraduate/courses/23444)
-- (023565) [Languages Technology](https://www.ceid.upatras.gr/en/undergraduate/courses/23565)
-- (23Y163) [Logic Design I](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5163)
-- (23Y164) [Logic Design II](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5164)
-- (23Y134) [Object Oriented Programming I](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5134)
-- (23Y231) [Object Oriented Programming II](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5231)
-- (23Y330) [Operating Systems I](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5330)
-- (23330E) [Operating Systems Laboratory](https://www.ceid.upatras.gr/en/undergraduate/courses/23330%CE%95)
-- (23Y440) [Parallel Processing](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5440)
-- [(23Y132)](https://github.com/gkffzs/CEID/tree/master/23Y132) [Principles of Programming Languages & Compilers](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5132)
-- (23Y343) [Scientific Calculation I](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5343)
+- (23387E) - [Computer Networks Laboratory](https://www.ceid.upatras.gr/en/undergraduate/courses/23387%CE%95)
+- (23Y384) - [Digital Communications](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5384)
+- (23Y381) - [Digital Signal Processing](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5381)
+- (23Y538) - [Internet Technologies](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5538)
+- (23Y282) - [Introduction to the Theory of Signals and Systems](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5282)
+- (023444) - [Knowledge Representation on World Wide Web](https://www.ceid.upatras.gr/en/undergraduate/courses/23444)
+- (023565) - [Languages Technology](https://www.ceid.upatras.gr/en/undergraduate/courses/23565)
+- (23Y163) - [Logic Design I](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5163)
+- (23Y164) - [Logic Design II](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5164)
+- (23Y134) - [Object Oriented Programming I](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5134)
+- (23Y231) - [Object Oriented Programming II](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5231)
+- (23Y330) - [Operating Systems I](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5330)
+- (23330E) - [Operating Systems Laboratory](https://www.ceid.upatras.gr/en/undergraduate/courses/23330%CE%95)
+- (23Y440) - [Parallel Processing](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5440)
+- [(23Y132)](https://github.com/gkffzs/CEID/tree/master/23Y132) - [Principles of Programming Languages & Compilers](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5132)
+- (23Y343) - [Scientific Calculation I](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5343)
 
 #### Licence
 [GNU General Public License version 3](https://www.gnu.org/licenses/gpl-3.0.en.html). Every line of code, that is in
