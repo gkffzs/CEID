@@ -11,7 +11,7 @@ the undergraduate program at CEID. The complete course list can be found
 repository, where any related code is contained, whereas the course name points to the course's website. So, in
 alphabetical order:
 - (23387E) - [Computer Networks Laboratory](https://www.ceid.upatras.gr/en/undergraduate/courses/23387%CE%95)
-- (23Y384) - [Digital Communications](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5384)
+- [(23Y384)](https://github.com/gkffzs/CEID/tree/master/23Y384) - [Digital Communications](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5384)
 - (23Y381) - [Digital Signal Processing](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5381)
 - (23Y538) - [Internet Technologies](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5538)
 - (23Y282) - [Introduction to the Theory of Signals and Systems](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5282)
