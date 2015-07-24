@@ -1,4 +1,4 @@
-#### (23Y132) - Principles of Programming Languages & Compilers
+#### (23Y132) - Principles of Programming Languages & Compilers [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5132)
 This repository contains the course project for the academic period of 2012-2013, done by
 [George Kaffezas](https://github.com/gkffzs) and [Anastasia Paparrodopoulou](https://github.com/paparrodop-anast).
 It's an implementation of a parser for an imaginary object-oriented language called "Simon", created using
