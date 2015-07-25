@@ -18,7 +18,7 @@ repository and the last column points to the course's website. So, in alphabetic
 | 23Y538      | Internet Technologies | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5538) |
 | 23Y282      | Introduction to the Theory of Signals and Systems | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5282) |
 | 023444      | Knowledge Representation on World Wide Web | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23444) |
-| 023565      | Languages Technology | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23565) |
+| [023565](https://github.com/gkffzs/CEID/tree/master/023565)      | Languages Technology | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23565) |
 | 23Y163      | Logic Design I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5163) |
 | 23Y164      | Logic Design II | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5164) |
 | 23Y134      | Object Oriented Programming I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5134) |
