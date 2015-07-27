@@ -22,7 +22,7 @@ repository and the last column points to the course's website. So, in alphabetic
 | 23Y163      | Logic Design I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5163) |
 | 23Y164      | Logic Design II | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5164) |
 | 23Y134      | Object Oriented Programming I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5134) |
-| 23Y231      | Object Oriented Programming II | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5231) |
+| [23Y231](https://github.com/gkffzs/CEID/tree/master/23Y231)      | Object Oriented Programming II | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5231) |
 | 23Y330      | Operating Systems I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5330) |
 | 23330E      | Operating Systems Laboratory | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23330%CE%95) |
 | 23Y440      | Parallel Processing | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5440) |
