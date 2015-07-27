@@ -9,7 +9,7 @@ the specified quantities of various resources. A more detailed description can b
 and more information about the implementation in `report.pdf` (also in Greek). Finally, you can see several screenshots
 of the simulation in `/screenshots` folder. As an example, here is the initial screen:
 
-
+![alt text](https://github.com/gkffzs/CEID/blob/master/23Y231/screenshots/screenshot_1.png "Initial screen")
 
 In order to test the above program yourself, you could open the project file, `cpp_project_2014.cbp` (that you'll find in
 the `/source_files` folder), in [Code::Blocks](http://www.codeblocks.org/), compile and run it by pressing F9. Ignore any
