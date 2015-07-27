@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cpp_project_2014" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/cpp_project_2014" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/cpp_project_2014" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AnalysisRobot.cpp" />
+		<Unit filename="AnalysisRobot.h" />
+		<Unit filename="Globals.h" />
+		<Unit filename="Main.cpp" />
+		<Unit filename="MapFunctions.cpp" />
+		<Unit filename="MapFunctions.h" />
+		<Unit filename="MapPosition.cpp" />
+		<Unit filename="MapPosition.h" />
+		<Unit filename="RandomNumbers.h" />
+		<Unit filename="RescueRobot.cpp" />
+		<Unit filename="RescueRobot.h" />
+		<Unit filename="ResearchRobot.cpp" />
+		<Unit filename="ResearchRobot.h" />
+		<Unit filename="RobotFunctions.cpp" />
+		<Unit filename="RobotFunctions.h" />
+		<Unit filename="Vehicle.cpp" />
+		<Unit filename="Vehicle.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

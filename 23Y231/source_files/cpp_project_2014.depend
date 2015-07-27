@@ -1,0 +1,348 @@
+# depslib dependency file v1.0
+1389728815 source:c:\cpp_project_2014\base.cpp
+	<iostream>
+	<iomanip>
+	"Base.h"
+
+1389311044 
+
+1389729503 c:\cpp_project_2014\base.h
+	"MapPosition.h"
+	"MapFunctions.h"
+
+1389309678 ons.h"
+
+1389311010 on.h"
+
+1389215333 c:\cpp_project_2014\map_position.h
+
+1389208759 source:c:\cpp_project_2014\map_position.cpp
+	<iostream>
+	<iomanip>
+	"map_position.h"
+
+1389208759 ion.h"
+
+1389833251 source:c:\cpp_project_2014\vehicle.cpp
+	"Vehicle.h"
+
+1389441435 "
+
+1389833142 c:\cpp_project_2014\vehicle.h
+	<vector>
+	<iostream>
+	"Globals.h"
+	"MapFunctions.h"
+
+1389834201 source:c:\cpp_project_2014\main.cpp
+	<ctime>
+	<string>
+	<vector>
+	<iostream>
+	"MapFunctions.h"
+	"RobotFunctions.h"
+
+1389834047 tions.h"
+
+1389312842 obot.h"
+
+1389215118 c:\cpp_project_2014\random_numbers.h
+
+1389738936 c:\cpp_project_2014\mapposition.h
+	<cstring>
+	<iostream>
+	"Globals.h"
+
+1389747729 c:\cpp_project_2014\randomnumbers.h
+
+1389804238 c:\cpp_project_2014\analysisrobot.h
+	<vector>
+	"Globals.h"
+	"Vehicle.h"
+
+1389828572 source:c:\cpp_project_2014\mapposition.cpp
+	"MapPosition.h"
+
+1389831486 source:c:\cpp_project_2014\analysisrobot.cpp
+	"Vehicle.h"
+	"AnalysisRobot.h"
+
+1389833323 source:c:\cpp_project_2014\rescuerobot.cpp
+	"Vehicle.h"
+	"RescueRobot.h"
+
+1389297738 ot.h"
+
+1389802882 c:\cpp_project_2014\rescuerobot.h
+	<vector>
+	"Globals.h"
+	"Vehicle.h"
+
+1389831431 source:c:\cpp_project_2014\mapfunctions.cpp
+	"MapFunctions.h"
+
+1389826669 c:\cpp_project_2014\mapfunctions.h
+	<vector>
+	<cstdlib>
+	<cstring>
+	<iostream>
+	<iomanip>
+	"Globals.h"
+	"MapPosition.h"
+	"RandomNumbers.h"
+
+1389826229 bers.h"
+
+1389803360 source:c:\cpp_project_2014\researchrobot.cpp
+	"Vehicle.h"
+	"ResearchRobot.h"
+
+1389798803 c:\cpp_project_2014\researchrobot.h
+	<vector>
+	"Globals.h"
+	"Vehicle.h"
+
+1389301286 source:/home/george/14-01-09/AnalysisRobot.cpp
+	"Vehicle.h"
+	"AnalysisRobot.h"
+
+1389312710 /home/george/14-01-09/Vehicle.h
+	<iostream>
+	"MapFunctions.h"
+
+1389295138 /home/george/14-01-09/MapFunctions.h
+	<cstdlib>
+	<iostream>
+	"Base.h"
+	"MapPosition.h"
+	"RandomNumbers.h"
+
+1389295288 /home/george/14-01-09/Base.h
+	"MapPosition.h"
+
+1389311044 /home/george/14-01-09/MapPosition.h
+	<iostream>
+
+1389295546 /home/george/14-01-09/RandomNumbers.h
+
+1389301262 /home/george/14-01-09/AnalysisRobot.h
+	"Vehicle.h"
+
+1389299032 source:/home/george/14-01-09/Base.cpp
+	<iostream>
+	<iomanip>
+	"Base.h"
+
+1389309678 source:/home/george/14-01-09/MapFunctions.cpp
+	"MapFunctions.h"
+
+1389311010 source:/home/george/14-01-09/MapPosition.cpp
+	"MapPosition.h"
+
+1389297738 source:/home/george/14-01-09/RescueRobot.cpp
+	"Vehicle.h"
+	"RescueRobot.h"
+
+1389297722 /home/george/14-01-09/RescueRobot.h
+	"Vehicle.h"
+
+1389297564 source:/home/george/14-01-09/ResearchRobot.cpp
+	"Vehicle.h"
+	"ResearchRobot.h"
+
+1389297502 /home/george/14-01-09/ResearchRobot.h
+	"Vehicle.h"
+
+1389441435 source:/home/george/14-01-09/Vehicle.cpp
+	"Vehicle.h"
+
+1389312842 source:/home/george/14-01-09/main.cpp
+	<ctime>
+	<string>
+	<iostream>
+	"Base.h"
+	"Vehicle.h"
+	"MapPosition.h"
+	"MapFunctions.h"
+	"RescueRobot.h"
+	"AnalysisRobot.h"
+	"ResearchRobot.h"
+
+1389826229 c:\cpp_project_2014\robotfunctions.h
+	<vector>
+	"Globals.h"
+	"Vehicle.h"
+	"RescueRobot.h"
+	"AnalysisRobot.h"
+	"ResearchRobot.h"
+	"RandomNumbers.h"
+
+1389834047 source:c:\cpp_project_2014\robotfunctions.cpp
+	"RobotFunctions.h"
+
+1389821014 c:\cpp_project_2014\globals.h
+
+1389891303 source:/home/george/14-01-15/AnalysisRobot.cpp
+	"Vehicle.h"
+	"AnalysisRobot.h"
+
+1389893136 /home/george/14-01-15/Vehicle.h
+	<vector>
+	<iostream>
+	"Globals.h"
+	"MapFunctions.h"
+
+1389879923 /home/george/14-01-15/Globals.h
+
+1389826670 /home/george/14-01-15/MapFunctions.h
+	<vector>
+	<cstdlib>
+	<cstring>
+	<iostream>
+	<iomanip>
+	"Globals.h"
+	"MapPosition.h"
+	"RandomNumbers.h"
+
+1389738938 /home/george/14-01-15/MapPosition.h
+	<cstring>
+	<iostream>
+	"Globals.h"
+
+1389747730 /home/george/14-01-15/RandomNumbers.h
+
+1389891454 /home/george/14-01-15/AnalysisRobot.h
+	<vector>
+	<cstdlib>
+	"Vehicle.h"
+	"RandomNumbers.h"
+
+1389892416 source:/home/george/14-01-15/Main.cpp
+	<ctime>
+	<string>
+	<vector>
+	<iostream>
+	"MapFunctions.h"
+	"RobotFunctions.h"
+
+1389882134 /home/george/14-01-15/RobotFunctions.h
+	<vector>
+	"Globals.h"
+	"Vehicle.h"
+	"RescueRobot.h"
+	"AnalysisRobot.h"
+	"ResearchRobot.h"
+	"RandomNumbers.h"
+
+1389891350 /home/george/14-01-15/RescueRobot.h
+	<vector>
+	"Globals.h"
+	"Vehicle.h"
+
+1389890641 /home/george/14-01-15/ResearchRobot.h
+	<vector>
+	"Globals.h"
+	"Vehicle.h"
+
+1389831432 source:/home/george/14-01-15/MapFunctions.cpp
+	"MapFunctions.h"
+
+1389828574 source:/home/george/14-01-15/MapPosition.cpp
+	"MapPosition.h"
+
+1389891412 source:/home/george/14-01-15/RescueRobot.cpp
+	"Vehicle.h"
+	"RescueRobot.h"
+
+1389891289 source:/home/george/14-01-15/ResearchRobot.cpp
+	"Vehicle.h"
+	"ResearchRobot.h"
+
+1389885599 source:/home/george/14-01-15/RobotFunctions.cpp
+	"RobotFunctions.h"
+
+1389891330 source:/home/george/14-01-15/Vehicle.cpp
+	"Vehicle.h"
+
+1389891303 source:/home/george/14-01-15/source_files/AnalysisRobot.cpp
+	"Vehicle.h"
+	"AnalysisRobot.h"
+
+1389893136 /home/george/14-01-15/source_files/Vehicle.h
+	<vector>
+	<iostream>
+	"Globals.h"
+	"MapFunctions.h"
+
+1389879923 /home/george/14-01-15/source_files/Globals.h
+
+1389826670 /home/george/14-01-15/source_files/MapFunctions.h
+	<vector>
+	<cstdlib>
+	<cstring>
+	<iostream>
+	<iomanip>
+	"Globals.h"
+	"MapPosition.h"
+	"RandomNumbers.h"
+
+1389738938 /home/george/14-01-15/source_files/MapPosition.h
+	<cstring>
+	<iostream>
+	"Globals.h"
+
+1389747730 /home/george/14-01-15/source_files/RandomNumbers.h
+
+1389891454 /home/george/14-01-15/source_files/AnalysisRobot.h
+	<vector>
+	<cstdlib>
+	"Vehicle.h"
+	"RandomNumbers.h"
+
+1389892416 source:/home/george/14-01-15/source_files/Main.cpp
+	<ctime>
+	<string>
+	<vector>
+	<iostream>
+	"MapFunctions.h"
+	"RobotFunctions.h"
+
+1389882134 /home/george/14-01-15/source_files/RobotFunctions.h
+	<vector>
+	"Globals.h"
+	"Vehicle.h"
+	"RescueRobot.h"
+	"AnalysisRobot.h"
+	"ResearchRobot.h"
+	"RandomNumbers.h"
+
+1389891350 /home/george/14-01-15/source_files/RescueRobot.h
+	<vector>
+	"Globals.h"
+	"Vehicle.h"
+
+1389890641 /home/george/14-01-15/source_files/ResearchRobot.h
+	<vector>
+	"Globals.h"
+	"Vehicle.h"
+
+1389831432 source:/home/george/14-01-15/source_files/MapFunctions.cpp
+	"MapFunctions.h"
+
+1389828574 source:/home/george/14-01-15/source_files/MapPosition.cpp
+	"MapPosition.h"
+
+1389891412 source:/home/george/14-01-15/source_files/RescueRobot.cpp
+	"Vehicle.h"
+	"RescueRobot.h"
+
+1389891289 source:/home/george/14-01-15/source_files/ResearchRobot.cpp
+	"Vehicle.h"
+	"ResearchRobot.h"
+
+1389885599 source:/home/george/14-01-15/source_files/RobotFunctions.cpp
+	"RobotFunctions.h"
+
+1389891330 source:/home/george/14-01-15/source_files/Vehicle.cpp
+	"Vehicle.h"
+
