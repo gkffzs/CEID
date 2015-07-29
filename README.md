@@ -24,7 +24,7 @@ repository and the last column points to the course's website. So, in alphabetic
 | 23Y134      | Object Oriented Programming I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5134) |
 | [23Y231](https://github.com/gkffzs/CEID/tree/master/23Y231)      | Object Oriented Programming II | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5231) |
 | 23Y330      | Operating Systems I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5330) |
-| 23330E      | Operating Systems Laboratory | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23330%CE%95) |
+| [23330E](https://github.com/gkffzs/CEID/tree/master/23330E)      | Operating Systems Laboratory | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23330%CE%95) |
 | 23Y440      | Parallel Processing | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5440) |
 | [23Y132](https://github.com/gkffzs/CEID/tree/master/23Y132)      | Principles of Programming Languages & Compilers | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5132) |
 | 23Y343      | Scientific Calculation I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5343) |
