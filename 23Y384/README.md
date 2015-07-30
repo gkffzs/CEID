@@ -3,7 +3,7 @@ This repository contains the two course assignments for the academic period of 2
 [George Kaffezas](https://github.com/gkffzs). In order to test any of the assignments, you should have a version of 
 [MATLAB](https://www.mathworks.com/products/matlab/) installed (for these assignments, version R2012b was used).
 
-###### Assignment #1
+###### [Assignment #1](https://github.com/gkffzs/CEID/tree/master/23Y384/Assignment%20%231)
 This folder contains the material of the first assignment. For this assignment we had to implement both a uniform and 
 a non-uniform (based on Lloyd-Max algorithm) PCM quantizer, and to compare the results of several different levels of
 quantization of `speech.wav`. Also, using Huffman coding (its source code, `huffman.m` was provided with the assignment)
@@ -15,7 +15,7 @@ source, and Huffman's efficiency. In specific:
 - `4465_report_1.pdf` is the report for this assignment, in Greek
 - `assignment_1.pdf` is the assignment's objectives and specifications, also in Greek
 
-###### Assignment #2
+###### [Assignment #2](https://github.com/gkffzs/CEID/tree/master/23Y384/Assignment%20%232)
 This folder contains the material of the second assignment. For this assignment we had to implement a simulation of a
 basic telecommunication system (transmitter-channel-receiver), including filters, noise, upsampling and decision modules.
 We used 2-PAM, 4-PAM, and 4-QAM modulation, calculated BER and then compared the different results. In specific:
