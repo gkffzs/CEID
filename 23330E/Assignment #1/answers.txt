@@ -1,0 +1,52 @@
+# COMMAND #1
+# "-e" selects all processes
+# "--sort etime" defines the sorting type
+ps -e --sort etime
+
+# COMMAND #2
+# "-e" selects all processes
+# "--sort cputime" defines the sorting type
+# "more" is used to control the output
+ps -e --sort cputime | more
+
+# COMMAND #3
+# "/" defines the system as the search field
+# "-type f" defines file as the search type
+# "! -user root" excludes the files that belong to root
+# "| more" is used to control the output
+find / -type f ! -user root | more
+
+# COMMAND #4
+# "/" defines the system as the search field
+# "-type d" to search for directories
+# "-name '[ad]*'" to search for directories that begin with a or d
+find / -type d -name '[ad]*'
+
+# COMMAND #5
+# "/usr" is the chosen directory
+# "-perm -111" defines the search of executable files
+# "> executables.txt" saves the results in that file
+# "; more executables.txt" displays simultaneously in controlled mode the output
+find /usr -perm -111 > executables.txt ; more executables.txt
+
+# COMMAND #6
+# "who" shows the users that are logged in the system
+# "awk '{print $1}'" prints the first column of the who command results, the login names
+# "sort -d" sorts the uniq command results in dictionary order
+who | awk '{print $1}' | sort -d
+
+# COMMAND #7
+# "who" shows the users that are logged in the system
+# "awk '{print $1}'" prints the first column of the who command results, thus the login names
+# "sort" sorts the results in alphabetical order
+# "uniq -d" shows once only the duplicate adjacent lines of the awk & sort command results,
+# thus prints the users that are logged in more than twice
+who | awk '{print $1}' | sort | uniq -d
+
+# COMMAND #8
+# "last" displays the list of the users logged in this month from the /var/log/wtmp
+# "awk '{print $1}'" prints the first column of the last command results, the login names
+# "sort -u" removes the duplicate adjacent lines of the awk command results
+# "awk 'END {print NR-2}'" for counting the users
+# "-2" is used above to exclude the 2 last lines of the last command results
+last | awk '{print $1}' | sort -u | awk 'END {print "Number of users: " NR-2}'
