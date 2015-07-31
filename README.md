@@ -1,8 +1,8 @@
 ## CEID Repository
-Current repository will include several projects, scripts and programs that I've written as an undergraduate student
-of the [Computer Engineering & Informatics Department](https://www.ceid.upatras.gr/) (CEID) at the
-[University of Patras](http://www.upatras.gr/). All descriptions will be in English, though some comments, reports or 
-assignments may be in Greek. In general, there will be many updates.
+Current repository includes several projects, scripts and programs that I've written (myself and in collaboration) as
+an undergraduate student of the [Computer Engineering & Informatics Department](https://www.ceid.upatras.gr/) (CEID)
+at the [University of Patras](http://www.upatras.gr/). All descriptions will be in English, although some comments and
+most reports or assignments may be in Greek. In general, there will be many updates.
 
 #### List of courses
 The following list is not an exhaustive list, rather a list of selected projects and assignments for some courses of 
@@ -27,9 +27,10 @@ repository and the last column points to the course's website. So, in alphabetic
 | [23330E](https://github.com/gkffzs/CEID/tree/master/23330E)      | Operating Systems Laboratory | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23330%CE%95) |
 | 23Y440      | Parallel Processing | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5440) |
 | [23Y132](https://github.com/gkffzs/CEID/tree/master/23Y132)      | Principles of Programming Languages & Compilers | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5132) |
-| 23Y343      | Scientific Calculation I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5343) |
+| [23Y343](https://github.com/gkffzs/CEID/tree/master/23Y343)      | Scientific Calculation I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5343) |
 
 #### Licence
 [GNU General Public License version 3](https://www.gnu.org/licenses/gpl-3.0.en.html). Every line of code, that is in
-this repository and was written by me or in collaboration with others, shall be considered to be published under the GPLv3.
-Some source files, that include code that I do not own and I haven't written, have their own licences.
+this repository and was written by me or in collaboration with others, shall be considered to be published under the
+GPLv3. However, some source files, that include code that I do not own and I haven't written, have their own licences
+and this will be stated clearly. Finally, I do not own any of the assignments, they belong to each course's professor.
