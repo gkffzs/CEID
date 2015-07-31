@@ -1,0 +1,8 @@
+>> script_1_1_iii
+Elapsed time is 0.000017 seconds.
+Elapsed time is 0.000005 seconds.
+Elapsed time is 0.000005 seconds.
+
+t =
+
+   1.1886e-07

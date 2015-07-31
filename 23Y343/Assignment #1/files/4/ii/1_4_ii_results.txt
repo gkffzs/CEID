@@ -1,0 +1,70 @@
+>> script_1_4_ii
+Warning: Polynomial is badly conditioned. Add points with
+distinct X
+         values, reduce the degree of the polynomial, or try
+         centering
+         and scaling as described in HELP POLYFIT. 
+> In polyfit at 76
+  In script_1_4_ii at 21 
+
+rt_ab =
+
+   1.0e-03 *
+
+    0.0064    0.0149    0.0210    0.0357    0.2983
+
+
+P1 =
+
+   1.0e-04 *
+
+    0.0038   -0.4330
+
+
+r1 =
+
+   1.0e-03 *
+
+   -0.0242   -0.0051    0.0332    0.1097    0.2626
+
+
+P2 =
+
+   1.0e-04 *
+
+    0.0000   -0.0024    0.2702
+
+
+r2 =
+
+   1.0e-03 *
+
+    0.0167    0.0099    0.0073    0.0457    0.2966
+
+
+P3 =
+
+   1.0e-05 *
+
+    0.0000   -0.0001    0.0270   -0.4404
+
+
+r3 =
+
+   1.0e-03 *
+
+    0.0068    0.0142    0.0214    0.0356    0.2983
+
+
+P4 =
+
+   1.0e-05 *
+
+   -0.0000    0.0000   -0.0002    0.0373   -0.8352
+
+
+r4 =
+
+   1.0e-03 *
+
+    0.0064    0.0149    0.0210    0.0357    0.2983

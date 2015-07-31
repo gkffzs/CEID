@@ -1,0 +1,193 @@
+>> test_mv_iii
+-----------------------------------------------
+Computing Matrix-Vector Multiplication c = A*b
+-----------------------------------------------
+>>> Number of matrix rows m: 16
+>>> Number of matrix columns n: 16
+>>> Number of flops: 512
+
+Method		   CPU (sec)   		MFlop/s
+------		-------------- 		-------
+mv_ij 		 5.118937e-05  		 100
+mv_ji 		 1.410841e-05  		 363
+mv_ab 		 4.903907e-06  		 1044
+-----------------------------------------------
+Computing Matrix-Vector Multiplication c = A*b
+-----------------------------------------------
+>>> Number of matrix rows m: 16
+>>> Number of matrix columns n: 64
+>>> Number of flops: 2048
+
+Method		   CPU (sec)   		MFlop/s
+------		-------------- 		-------
+mv_ij 		 5.285077e-05  		 388
+mv_ji 		 3.204969e-05  		 639
+mv_ab 		 5.937706e-06  		 3449
+-----------------------------------------------
+Computing Matrix-Vector Multiplication c = A*b
+-----------------------------------------------
+>>> Number of matrix rows m: 16
+>>> Number of matrix columns n: 256
+>>> Number of flops: 8192
+
+Method		   CPU (sec)   		MFlop/s
+------		-------------- 		-------
+mv_ij 		 6.805644e-05  		 1204
+mv_ji 		 1.035332e-04  		 791
+mv_ab 		 7.629696e-06  		 10737
+-----------------------------------------------
+Computing Matrix-Vector Multiplication c = A*b
+-----------------------------------------------
+>>> Number of matrix rows m: 16
+>>> Number of matrix columns n: 1024
+>>> Number of flops: 32768
+
+Method		   CPU (sec)   		MFlop/s
+------		-------------- 		-------
+mv_ij 		 1.114395e-04  		 2940
+mv_ji 		 3.880338e-04  		 844
+mv_ab 		 1.342902e-05  		 24401
+-----------------------------------------------
+Computing Matrix-Vector Multiplication c = A*b
+-----------------------------------------------
+>>> Number of matrix rows m: 64
+>>> Number of matrix columns n: 16
+>>> Number of flops: 2048
+
+Method		   CPU (sec)   		MFlop/s
+------		-------------- 		-------
+mv_ij 		 1.759303e-04  		 116
+mv_ji 		 1.498875e-05  		 1366
+mv_ab 		 5.970248e-06  		 3430
+-----------------------------------------------
+Computing Matrix-Vector Multiplication c = A*b
+-----------------------------------------------
+>>> Number of matrix rows m: 64
+>>> Number of matrix columns n: 64
+>>> Number of flops: 8192
+
+Method		   CPU (sec)   		MFlop/s
+------		-------------- 		-------
+mv_ij 		 1.872369e-04  		 438
+mv_ji 		 3.520169e-05  		 2327
+mv_ab 		 7.690648e-06  		 10652
+-----------------------------------------------
+Computing Matrix-Vector Multiplication c = A*b
+-----------------------------------------------
+>>> Number of matrix rows m: 64
+>>> Number of matrix columns n: 256
+>>> Number of flops: 32768
+
+Method		   CPU (sec)   		MFlop/s
+------		-------------- 		-------
+mv_ij 		 2.333980e-04  		 1404
+mv_ji 		 1.166068e-04  		 2810
+mv_ab 		 3.833055e-05  		 8549
+-----------------------------------------------
+Computing Matrix-Vector Multiplication c = A*b
+-----------------------------------------------
+>>> Number of matrix rows m: 64
+>>> Number of matrix columns n: 1024
+>>> Number of flops: 131072
+
+Method		   CPU (sec)   		MFlop/s
+------		-------------- 		-------
+mv_ij 		 4.065226e-04  		 3224
+mv_ji 		 4.399445e-04  		 2979
+mv_ab 		 6.902522e-05  		 18989
+-----------------------------------------------
+Computing Matrix-Vector Multiplication c = A*b
+-----------------------------------------------
+>>> Number of matrix rows m: 256
+>>> Number of matrix columns n: 16
+>>> Number of flops: 8192
+
+Method		   CPU (sec)   		MFlop/s
+------		-------------- 		-------
+mv_ij 		 6.659146e-04  		 123
+mv_ji 		 1.910190e-05  		 4289
+mv_ab 		 7.755953e-06  		 10562
+-----------------------------------------------
+Computing Matrix-Vector Multiplication c = A*b
+-----------------------------------------------
+>>> Number of matrix rows m: 256
+>>> Number of matrix columns n: 64
+>>> Number of flops: 32768
+
+Method		   CPU (sec)   		MFlop/s
+------		-------------- 		-------
+mv_ij 		 7.207408e-04  		 455
+mv_ji 		 5.259003e-05  		 6231
+mv_ab 		 2.849236e-05  		 11501
+-----------------------------------------------
+Computing Matrix-Vector Multiplication c = A*b
+-----------------------------------------------
+>>> Number of matrix rows m: 256
+>>> Number of matrix columns n: 256
+>>> Number of flops: 131072
+
+Method		   CPU (sec)   		MFlop/s
+------		-------------- 		-------
+mv_ij 		 9.400457e-04  		 1394
+mv_ji 		 1.710948e-04  		 7661
+mv_ab 		 5.222234e-05  		 25099
+-----------------------------------------------
+Computing Matrix-Vector Multiplication c = A*b
+-----------------------------------------------
+>>> Number of matrix rows m: 256
+>>> Number of matrix columns n: 1024
+>>> Number of flops: 524288
+
+Method		   CPU (sec)   		MFlop/s
+------		-------------- 		-------
+mv_ij 		 1.948833e-03  		 2690
+mv_ji 		 6.616480e-04  		 7924
+mv_ab 		 9.295304e-05  		 56404
+-----------------------------------------------
+Computing Matrix-Vector Multiplication c = A*b
+-----------------------------------------------
+>>> Number of matrix rows m: 1024
+>>> Number of matrix columns n: 16
+>>> Number of flops: 32768
+
+Method		   CPU (sec)   		MFlop/s
+------		-------------- 		-------
+mv_ij 		 2.678001e-03  		 122
+mv_ji 		 3.698069e-05  		 8861
+mv_ab 		 2.951485e-05  		 11102
+-----------------------------------------------
+Computing Matrix-Vector Multiplication c = A*b
+-----------------------------------------------
+>>> Number of matrix rows m: 1024
+>>> Number of matrix columns n: 64
+>>> Number of flops: 131072
+
+Method		   CPU (sec)   		MFlop/s
+------		-------------- 		-------
+mv_ij 		 2.903706e-03  		 451
+mv_ji 		 1.297488e-04  		 10102
+mv_ab 		 4.668613e-05  		 28075
+-----------------------------------------------
+Computing Matrix-Vector Multiplication c = A*b
+-----------------------------------------------
+>>> Number of matrix rows m: 1024
+>>> Number of matrix columns n: 256
+>>> Number of flops: 524288
+
+Method		   CPU (sec)   		MFlop/s
+------		-------------- 		-------
+mv_ij 		 4.536546e-03  		 1156
+mv_ji 		 4.422201e-04  		 11856
+mv_ab 		 7.794959e-05  		 67260
+-----------------------------------------------
+Computing Matrix-Vector Multiplication c = A*b
+-----------------------------------------------
+>>> Number of matrix rows m: 1024
+>>> Number of matrix columns n: 1024
+>>> Number of flops: 2097152
+
+Method		   CPU (sec)   		MFlop/s
+------		-------------- 		-------
+mv_ij 		 1.625058e-02  		 1291
+mv_ji 		 2.710854e-03  		 7736
+mv_ab 		 6.838345e-04  		 30668
