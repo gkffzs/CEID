@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=Image_Application()
+comment2.params=original_image\ type\ new_width\ new_height
+comment2.target=java.awt.image.BufferedImage\ Resize_Image(java.awt.image.BufferedImage,\ int,\ int,\ int)
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=4

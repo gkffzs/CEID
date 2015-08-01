@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=lastname\ firstname\ age\ salary\ sex\ children
+comment0.target=MarriedPerson(java.lang.String,\ java.lang.String,\ int,\ float,\ int,\ int)
+comment1.params=
+comment1.target=int\ getNoOfChildren()
+comment2.params=c
+comment2.target=void\ setNoOfChildren(int)
+comment3.params=m
+comment3.target=void\ setMarried(boolean)
+comment4.params=spouse
+comment4.target=void\ setSalary(MarriedPerson)
+comment5.params=
+comment5.target=void\ printInfo()
+numComments=6

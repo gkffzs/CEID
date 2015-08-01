@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=title
+comment0.target=MyAppButton(java.lang.String)
+comment1.params=evt
+comment1.target=void\ windowClosing(java.awt.event.WindowEvent)
+comment2.params=path
+comment2.target=javax.swing.ImageIcon\ createImageIcon(java.lang.String)
+comment2.text=Returns\ an\ ImageIcon,\ or\ null\ if\ the\ path\ was\ invalid.
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

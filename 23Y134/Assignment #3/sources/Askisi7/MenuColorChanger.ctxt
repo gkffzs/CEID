@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=c\ p
+comment0.target=MenuColorChanger(java.awt.Container,\ javax.swing.JProgressBar)
+comment1.params=a
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=2
