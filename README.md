@@ -14,18 +14,13 @@ repository and the last column points to the course's website. So, in alphabetic
 |:-------------:| --------------------------------------------------------- |:--------------------------------------:|
 | 23387E      | Computer Networks Laboratory | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23387%CE%95) |
 | [23Y384](https://github.com/gkffzs/CEID/tree/master/23Y384)      | Digital Communications | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5384) |
-| 23Y381      | Digital Signal Processing | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5381) |
 | 23Y538      | Internet Technologies | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5538) |
-| 23Y282      | Introduction to the Theory of Signals and Systems | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5282) |
-| 023444      | Knowledge Representation on World Wide Web | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23444) |
 | [023565](https://github.com/gkffzs/CEID/tree/master/023565)      | Languages Technology | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23565) |
-| 23Y163      | Logic Design I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5163) |
 | 23Y164      | Logic Design II | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5164) |
 | [23Y134](https://github.com/gkffzs/CEID/tree/master/23Y134)      | Object Oriented Programming I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5134) |
 | [23Y231](https://github.com/gkffzs/CEID/tree/master/23Y231)      | Object Oriented Programming II | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5231) |
 | 23Y330      | Operating Systems I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5330) |
 | [23330E](https://github.com/gkffzs/CEID/tree/master/23330E)      | Operating Systems Laboratory | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23330%CE%95) |
-| 23Y440      | Parallel Processing | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5440) |
 | [23Y132](https://github.com/gkffzs/CEID/tree/master/23Y132)      | Principles of Programming Languages & Compilers | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5132) |
 | [23Y343](https://github.com/gkffzs/CEID/tree/master/23Y343)      | Scientific Calculation I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5343) |
 
