@@ -1,6 +1,6 @@
 #### (23Y343) - Scientific Calculation I [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5343)
 This repository contains the three course assignments for the academic period of 2013-2014, done by
-[George Kaffezas](https://github.com/gkffzs).In order to test any of the code in these assignments, you should have a
+[George Kaffezas](https://github.com/gkffzs). In order to test any of the code in these assignments, you should have a
 version of [MATLAB](https://www.mathworks.com/products/matlab/) installed (for these cases, version R2012b was used).
 
 ###### [Assignment #1](https://github.com/gkffzs/CEID/tree/master/23Y343/Assignment%20%231)
