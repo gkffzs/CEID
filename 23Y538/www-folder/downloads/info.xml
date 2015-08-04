@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+-Συμπληρώστε υποχρεωτικά τα πεδία file_name, title, publication, description, tags. 
+-Για δημόσια φωτογραφία στο publication εισάγετε την τιμή 1, διαφορετικά 0.
+-Για προσθήκη παραπάνω φωτογραφιών αντιγράψτε όλο το block κώδικα:
+	<picture>
+		<file_name>Όνομα αρχείου</file_name>
+		<title>Τίτλος</title>
+		<publication>1</publication>
+		<description>Περιγραφή</description>
+		<tags>ετικέτα1,ετικέτα2</tags>
+		<geolocation>Τοποθεσία</geolocation>
+		<latitude>0.000000</latitude>
+		<length>0.000000</length>
+	</picture>
+-->
+
+<picture>
+	<file_name>Όνομα αρχείου</file_name>
+	<title>Τίτλος</title>
+	<publication>1</publication>
+	<description>Περιγραφή</description>
+	<tags>ετικέτα1,ετικέτα2</tags>
+	<geolocation>Τοποθεσία</geolocation>
+	<latitude>0.000000</latitude>
+	<length>0.000000</length>
+</picture>		
+		
