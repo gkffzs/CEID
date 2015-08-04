@@ -1,6 +1,8 @@
 #### (23Y134) - Object Oriented Programming I [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5134)
 This repository contains the three course assignments for the academic period of 2011-2012, done by
-[George Kaffezas](https://github.com/gkffzs).
+[George Kaffezas](https://github.com/gkffzs). In order to test any of the source code, you should have a version of
+[JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html) installed, and you could use
+[BlueJ](http://www.bluej.org/) as IDE, for easy import.
 
 In each of these assignments we had at first to familiarize and experiment with several capabilities of Java and explore
 their nature. The related exercises are specified in `general_lab_exercises.pdf`, which contains instructions and some
