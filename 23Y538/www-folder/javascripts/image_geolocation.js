@@ -1,22 +1,22 @@
-// Μέθοδος για την εμφάνιση του χάρτη.
+// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ξ³ΞΉΞ± Ο„Ξ·Ξ½ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ο„ΞΏΟ… Ο‡Ξ¬ΟΟ„Ξ·.
 function display_map(){
-	// Προσδιορισμός των χαρακτηριστικών του χάρτη.
+	// Ξ ΟΞΏΟƒΞ΄ΞΉΞΏΟΞΉΟƒΞΌΟΟ‚ Ο„Ο‰Ξ½ Ο‡Ξ±ΟΞ±ΞΊΟ„Ξ·ΟΞΉΟƒΟ„ΞΉΞΊΟΞ½ Ο„ΞΏΟ… Ο‡Ξ¬ΟΟ„Ξ·.
 	var myOptions={
 		zoom: 13,
 		center: latlng,
 		mapTypeId: google.maps.MapTypeId.ROADMAP
 	};
 	
-	// Δημιουργία του χάρτη.
+	// Ξ”Ξ·ΞΌΞΉΞΏΟ…ΟΞ³Ξ―Ξ± Ο„ΞΏΟ… Ο‡Ξ¬ΟΟ„Ξ·.
 	var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 	
-	// Δημιουργία του marker.
+	// Ξ”Ξ·ΞΌΞΉΞΏΟ…ΟΞ³Ξ―Ξ± Ο„ΞΏΟ… marker.
 	var marker=new google.maps.Marker({
 		 position: latlng, 
 		 map: map
 	});
 	
-	// Διαχείριση συμπεριφοράς με κλικ πάνω στον χάρτη.
+	// Ξ”ΞΉΞ±Ο‡ΞµΞ―ΟΞΉΟƒΞ· ΟƒΟ…ΞΌΟ€ΞµΟΞΉΟ†ΞΏΟΞ¬Ο‚ ΞΌΞµ ΞΊΞ»ΞΉΞΊ Ο€Ξ¬Ξ½Ο‰ ΟƒΟ„ΞΏΞ½ Ο‡Ξ¬ΟΟ„Ξ·.
 	google.maps.event.addListener(map, 'click', function (event) {
 		document.getElementById("latbox").value = event.latLng.lat();
 		document.getElementById("lngbox").value = event.latLng.lng();
@@ -26,7 +26,7 @@ function display_map(){
 
 var latlng;
 
-// Έλεγχοι για τον προσδιορισμό της τοποθεσίας του κέντρου του χάρτη.
+// ΞΞ»ΞµΞ³Ο‡ΞΏΞΉ Ξ³ΞΉΞ± Ο„ΞΏΞ½ Ο€ΟΞΏΟƒΞ΄ΞΉΞΏΟΞΉΟƒΞΌΟ Ο„Ξ·Ο‚ Ο„ΞΏΟ€ΞΏΞΈΞµΟƒΞ―Ξ±Ο‚ Ο„ΞΏΟ… ΞΊΞ­Ξ½Ο„ΟΞΏΟ… Ο„ΞΏΟ… Ο‡Ξ¬ΟΟ„Ξ·.
 if (navigator.geolocation){
 	function displayPosition(position) {
 		latlng=new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
@@ -34,12 +34,12 @@ if (navigator.geolocation){
 	}
 
 	function errorFunction(position){
-		latlng=new google.maps.LatLng(38.247482, 21.733662); // Συντεταγμένες της Πάτρας.
+		latlng=new google.maps.LatLng(38.247482, 21.733662); // Ξ£Ο…Ξ½Ο„ΞµΟ„Ξ±Ξ³ΞΌΞ­Ξ½ΞµΟ‚ Ο„Ξ·Ο‚ Ξ Ξ¬Ο„ΟΞ±Ο‚.
 		display_map();
 	}
 
 	navigator.geolocation.getCurrentPosition(displayPosition, errorFunction);
 }else{
-	latlng=new google.maps.LatLng(38.247482, 21.733662); // Συντεταγμένες της Πάτρας.
+	latlng=new google.maps.LatLng(38.247482, 21.733662); // Ξ£Ο…Ξ½Ο„ΞµΟ„Ξ±Ξ³ΞΌΞ­Ξ½ΞµΟ‚ Ο„Ξ·Ο‚ Ξ Ξ¬Ο„ΟΞ±Ο‚.
 	display_map();
 }
