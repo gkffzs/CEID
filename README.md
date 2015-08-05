@@ -16,7 +16,6 @@ repository and the last column points to the course's website. So, in alphabetic
 | [23Y384](https://github.com/gkffzs/CEID/tree/master/23Y384)      | Digital Communications | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5384) |
 | [23Y538](https://github.com/gkffzs/CEID/tree/master/23Y538)      | Internet Technologies | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5538) |
 | [023565](https://github.com/gkffzs/CEID/tree/master/023565)      | Languages Technology | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23565) |
-| 23Y164      | Logic Design II | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5164) |
 | [23Y134](https://github.com/gkffzs/CEID/tree/master/23Y134)      | Object Oriented Programming I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5134) |
 | [23Y231](https://github.com/gkffzs/CEID/tree/master/23Y231)      | Object Oriented Programming II | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5231) |
 | 23Y330      | Operating Systems I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5330) |
