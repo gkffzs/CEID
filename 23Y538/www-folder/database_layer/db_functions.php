@@ -1,24 +1,24 @@
 <?php
-	// Μέθοδος για την εισαγωγή σχολίου στη βάση.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ξ³ΞΉΞ± Ο„Ξ·Ξ½ ΞµΞΉΟƒΞ±Ξ³Ο‰Ξ³Ξ® ΟƒΟ‡ΞΏΞ»Ξ―ΞΏΟ… ΟƒΟ„Ξ· Ξ²Ξ¬ΟƒΞ·.
 	function db_insert_comment($check_form_username, $check_form_comment_text, $check_form_picture_id, $check_form_date){
 		mysql_query("	INSERT INTO comments (username, comment, picture_id, date)
 						VALUES ('$check_form_username', '$check_form_comment_text', '$check_form_picture_id', '$check_form_date')")
 					or die(mysql_error());  
 	}
 	
-	// Μέθοδος για σύνδεση στη βάση δεδομένων.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ξ³ΞΉΞ± ΟƒΟΞ½Ξ΄ΞµΟƒΞ· ΟƒΟ„Ξ· Ξ²Ξ¬ΟƒΞ· Ξ΄ΞµΞ΄ΞΏΞΌΞ­Ξ½Ο‰Ξ½.
 	function db_connect(){
 		include("db_config.php");
 	
 		$db_connection = mysql_connect($db_host, $db_user, $db_pass)
-						or die("Δεν επιτεύχθηκε η σύνδεση.");
+						or die("Ξ”ΞµΞ½ ΞµΟ€ΞΉΟ„ΞµΟΟ‡ΞΈΞ·ΞΊΞµ Ξ· ΟƒΟΞ½Ξ΄ΞµΟƒΞ·.");
 						
-		mysql_select_db("ekona", $db_connection) or die("Δεν επιτεύχθηκε η σύνδεση με τον πίνακα.");
+		mysql_select_db("ekona", $db_connection) or die("Ξ”ΞµΞ½ ΞµΟ€ΞΉΟ„ΞµΟΟ‡ΞΈΞ·ΞΊΞµ Ξ· ΟƒΟΞ½Ξ΄ΞµΟƒΞ· ΞΌΞµ Ο„ΞΏΞ½ Ο€Ξ―Ξ½Ξ±ΞΊΞ±.");
 			
 		mysql_query('SET NAMES utf8');
 	}
 	
-	// Μέθοδος για τον έλεγχο σχετικά με το αν υπάρχει το όνομα του χρήστη στη βάση δεδομένων.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ξ³ΞΉΞ± Ο„ΞΏΞ½ Ξ­Ξ»ΞµΞ³Ο‡ΞΏ ΟƒΟ‡ΞµΟ„ΞΉΞΊΞ¬ ΞΌΞµ Ο„ΞΏ Ξ±Ξ½ Ο…Ο€Ξ¬ΟΟ‡ΞµΞΉ Ο„ΞΏ ΟΞ½ΞΏΞΌΞ± Ο„ΞΏΟ… Ο‡ΟΞ®ΟƒΟ„Ξ· ΟƒΟ„Ξ· Ξ²Ξ¬ΟƒΞ· Ξ΄ΞµΞ΄ΞΏΞΌΞ­Ξ½Ο‰Ξ½.
 	function db_user_check($check_form_username){
 		$result = mysql_query("	SELECT *
 								FROM user 
@@ -29,7 +29,7 @@
 		return $user_num;
 	}
 
-	// Μέθοδος για τον έλεγχο σχετικά με το αν υπάρχει το email στη βάση δεδομένων.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ξ³ΞΉΞ± Ο„ΞΏΞ½ Ξ­Ξ»ΞµΞ³Ο‡ΞΏ ΟƒΟ‡ΞµΟ„ΞΉΞΊΞ¬ ΞΌΞµ Ο„ΞΏ Ξ±Ξ½ Ο…Ο€Ξ¬ΟΟ‡ΞµΞΉ Ο„ΞΏ email ΟƒΟ„Ξ· Ξ²Ξ¬ΟƒΞ· Ξ΄ΞµΞ΄ΞΏΞΌΞ­Ξ½Ο‰Ξ½.
 	function db_email_check($check_form_email){
 		$result = mysql_query("	SELECT * 
 								FROM user 
@@ -40,14 +40,14 @@
 		return $email_num;
 	}
 
-	// Μέθοδος για την εισαγωγή των στοιχείων ενός νέου χρήστη.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ξ³ΞΉΞ± Ο„Ξ·Ξ½ ΞµΞΉΟƒΞ±Ξ³Ο‰Ξ³Ξ® Ο„Ο‰Ξ½ ΟƒΟ„ΞΏΞΉΟ‡ΞµΞ―Ο‰Ξ½ ΞµΞ½ΟΟ‚ Ξ½Ξ­ΞΏΟ… Ο‡ΟΞ®ΟƒΟ„Ξ·.
 	function db_reg_input($check_form_username, $check_form_password, $check_form_email){
 		mysql_query("	INSERT INTO user (username, password, email)
 						VALUES ('$check_form_username', SHA1('$check_form_password'), '$check_form_email')")
 					or die(mysql_error());  
 	}
 	
-	// Μέθοδος για την επικύρωση του χρήστη.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ξ³ΞΉΞ± Ο„Ξ·Ξ½ ΞµΟ€ΞΉΞΊΟΟΟ‰ΟƒΞ· Ο„ΞΏΟ… Ο‡ΟΞ®ΟƒΟ„Ξ·.
 	function validate_user($username,$password){	
 		$result = mysql_query("	SELECT * 
 								FROM user
@@ -59,7 +59,7 @@
 		return $user_data;
 	}
 	
-	// Μέθοδος για ανανέωση των στοιχείων ενός χρήστη.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ξ³ΞΉΞ± Ξ±Ξ½Ξ±Ξ½Ξ­Ο‰ΟƒΞ· Ο„Ο‰Ξ½ ΟƒΟ„ΞΏΞΉΟ‡ΞµΞ―Ο‰Ξ½ ΞµΞ½ΟΟ‚ Ο‡ΟΞ®ΟƒΟ„Ξ·.
 	function db_profile_update($form_user_id, $form_new_email, $form_new_password){
 		mysql_query("	UPDATE user 
 						SET email = '".$form_new_email."',
@@ -68,7 +68,7 @@
 					or die(mysql_error());
 	}
 	
-	// Μέθοδος που επιστρέφει τον χώρο που χρησιμοποιεί ένας χρήστης.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ο€ΞΏΟ… ΞµΟ€ΞΉΟƒΟ„ΟΞ­Ο†ΞµΞΉ Ο„ΞΏΞ½ Ο‡ΟΟΞΏ Ο€ΞΏΟ… Ο‡ΟΞ·ΟƒΞΉΞΌΞΏΟ€ΞΏΞΉΞµΞ― Ξ­Ξ½Ξ±Ο‚ Ο‡ΟΞ®ΟƒΟ„Ξ·Ο‚.
 	function quota(){
 		$result = mysql_query("	SELECT quota 
 								FROM user
@@ -79,7 +79,7 @@
 		return($row['quota']);			
 	}
 	
-	// Μέθοδος για την εισαγωγή των στοιχείων μιας φωτογραφίας.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ξ³ΞΉΞ± Ο„Ξ·Ξ½ ΞµΞΉΟƒΞ±Ξ³Ο‰Ξ³Ξ® Ο„Ο‰Ξ½ ΟƒΟ„ΞΏΞΉΟ‡ΞµΞ―Ο‰Ξ½ ΞΌΞΉΞ±Ο‚ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†Ξ―Ξ±Ο‚.
 	function db_picture_insert($picture_title, $picture_description, $picture_publication, $picture_geolocation, $session, $filename, $picture_size, $picture_tags, $lat, $lng){	
 		$user_id = $_SESSION['user_id'];
 		$quota = quota(); 		
@@ -95,7 +95,7 @@
 						WHERE user_id = '$user_id'")
 					or die(mysql_error());  
 	
-		// Κομμάτι κώδικα για την εισαγωγή των ετικετών.		
+		// ΞΞΏΞΌΞΌΞ¬Ο„ΞΉ ΞΊΟΞ΄ΞΉΞΊΞ± Ξ³ΞΉΞ± Ο„Ξ·Ξ½ ΞµΞΉΟƒΞ±Ξ³Ο‰Ξ³Ξ® Ο„Ο‰Ξ½ ΞµΟ„ΞΉΞΊΞµΟ„ΟΞ½.		
 		$result = mysql_query("	SELECT picture_id 
 								FROM picture
 								WHERE user_id = '$user_id'
@@ -106,7 +106,7 @@
 		$picture_id = $row['picture_id'];			
 
 		while($strToken){
-			// Έλεγχος για το αν υπάρχει η ετικέτα.
+			// ΞΞ»ΞµΞ³Ο‡ΞΏΟ‚ Ξ³ΞΉΞ± Ο„ΞΏ Ξ±Ξ½ Ο…Ο€Ξ¬ΟΟ‡ΞµΞΉ Ξ· ΞµΟ„ΞΉΞΊΞ­Ο„Ξ±.
 			$tag = trim($strToken);
 			$result = mysql_query("	SELECT tag_name  
 									FROM picture_tags
@@ -115,12 +115,12 @@
 								
 			$num_rows = mysql_num_rows($result);
 			
-			// Αν δεν υπάρχει η ετικέτα, εισάγεται στη βάση.			
+			// Ξ‘Ξ½ Ξ΄ΞµΞ½ Ο…Ο€Ξ¬ΟΟ‡ΞµΞΉ Ξ· ΞµΟ„ΞΉΞΊΞ­Ο„Ξ±, ΞµΞΉΟƒΞ¬Ξ³ΞµΟ„Ξ±ΞΉ ΟƒΟ„Ξ· Ξ²Ξ¬ΟƒΞ·.			
 			if(!$num_rows > 0){ 
 				mysql_query("	INSERT INTO picture_tags(tag_name, num_pictures)
 								VALUES ('$tag', '1')")
 							or die(mysql_error());  																			
-			}else{	// Αλλιώς, αυξάνεται ο αριθμός φωτογραφιών της.
+			}else{	// Ξ‘Ξ»Ξ»ΞΉΟΟ‚, Ξ±Ο…ΞΎΞ¬Ξ½ΞµΟ„Ξ±ΞΉ ΞΏ Ξ±ΟΞΉΞΈΞΌΟΟ‚ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†ΞΉΟΞ½ Ο„Ξ·Ο‚.
 				mysql_query("	UPDATE picture_tags 
 								SET num_pictures = num_pictures+1
 								WHERE tag_name = '$tag'")
@@ -144,7 +144,7 @@
 	}
 	
 	
-	// Μέθοδος για ανανέωση των στοιχείων μιας φωτογραφίας.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ξ³ΞΉΞ± Ξ±Ξ½Ξ±Ξ½Ξ­Ο‰ΟƒΞ· Ο„Ο‰Ξ½ ΟƒΟ„ΞΏΞΉΟ‡ΞµΞ―Ο‰Ξ½ ΞΌΞΉΞ±Ο‚ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†Ξ―Ξ±Ο‚.
 	function db_picture_update($form_title, $form_description, $form_publication, $form_geolocation, $login_session, $form_tags, $form_id, $form_lat, $form_lng){
 		mysql_query("	UPDATE picture 
 						SET title = '".$form_title."',
@@ -170,16 +170,16 @@
 		while($strToken){   	
 			$tag = trim($strToken);
 		
-			// Έλεγχος για την ύπαρξη της τρέχουσας ετικέτας στη βάση δεδομένων.					
+			// ΞΞ»ΞµΞ³Ο‡ΞΏΟ‚ Ξ³ΞΉΞ± Ο„Ξ·Ξ½ ΟΟ€Ξ±ΟΞΎΞ· Ο„Ξ·Ο‚ Ο„ΟΞ­Ο‡ΞΏΟ…ΟƒΞ±Ο‚ ΞµΟ„ΞΉΞΊΞ­Ο„Ξ±Ο‚ ΟƒΟ„Ξ· Ξ²Ξ¬ΟƒΞ· Ξ΄ΞµΞ΄ΞΏΞΌΞ­Ξ½Ο‰Ξ½.					
 			$result = mysql_query("	SELECT tag_name
 									FROM picture_tags
 									WHERE tag_name = '$tag'")
 								or die(mysql_error());
 			
-			// Αν το $num_rows επιστρέψει 0 τότε δεν υπάρχει το tag.
+			// Ξ‘Ξ½ Ο„ΞΏ $num_rows ΞµΟ€ΞΉΟƒΟ„ΟΞ­ΟΞµΞΉ 0 Ο„ΟΟ„Ξµ Ξ΄ΞµΞ½ Ο…Ο€Ξ¬ΟΟ‡ΞµΞΉ Ο„ΞΏ tag.
 			$num_rows = mysql_num_rows($result);
 			
-			// Αν δεν υπάρχει η ετικέτα, εισάγεται στη βάση.
+			// Ξ‘Ξ½ Ξ΄ΞµΞ½ Ο…Ο€Ξ¬ΟΟ‡ΞµΞΉ Ξ· ΞµΟ„ΞΉΞΊΞ­Ο„Ξ±, ΞµΞΉΟƒΞ¬Ξ³ΞµΟ„Ξ±ΞΉ ΟƒΟ„Ξ· Ξ²Ξ¬ΟƒΞ·.
 			if($num_rows==0){			
 				mysql_query("	INSERT INTO picture_tags(tag_name, num_pictures)
 								VALUES ('$tag', '1')")
@@ -195,14 +195,14 @@
 			$tag_id = $row['tag_id'];
 			$new_Photo_tags[] = $tag_id;
 			
-			// Έλεγχος για το αν έχει η φωτογραφία την τρέχουσα ετικέτα		
+			// ΞΞ»ΞµΞ³Ο‡ΞΏΟ‚ Ξ³ΞΉΞ± Ο„ΞΏ Ξ±Ξ½ Ξ­Ο‡ΞµΞΉ Ξ· Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†Ξ―Ξ± Ο„Ξ·Ξ½ Ο„ΟΞ­Ο‡ΞΏΟ…ΟƒΞ± ΞµΟ„ΞΉΞΊΞ­Ο„Ξ±		
 			$result = mysql_query("	SELECT tag_id
 									FROM picture_tagged
 									WHERE tag_id = '$tag_id'
 									AND picture_id = '$form_id'") 
 								or die(mysql_error());	
 													
-			$tag_ok = mysql_num_rows($result); // Έχει η φωτογραφία αυτή την ετικέτα;
+			$tag_ok = mysql_num_rows($result); // ΞΟ‡ΞµΞΉ Ξ· Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†Ξ―Ξ± Ξ±Ο…Ο„Ξ® Ο„Ξ·Ξ½ ΞµΟ„ΞΉΞΊΞ­Ο„Ξ±;
 				
 			if(!$tag_ok > 0){
 				mysql_query("	INSERT INTO picture_tagged(tag_id, picture_id) 
@@ -213,7 +213,7 @@
 			$strToken=strtok(",");  		
 		}
 		
-		// Διαχωρισμός και διαγραφή παλιών ετικετών της φωτογραφίας
+		// Ξ”ΞΉΞ±Ο‡Ο‰ΟΞΉΟƒΞΌΟΟ‚ ΞΊΞ±ΞΉ Ξ΄ΞΉΞ±Ξ³ΟΞ±Ο†Ξ® Ο€Ξ±Ξ»ΞΉΟΞ½ ΞµΟ„ΞΉΞΊΞµΟ„ΟΞ½ Ο„Ξ·Ο‚ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†Ξ―Ξ±Ο‚
 		foreach($old_Photo_tags as $old){
 			$delete_old = 1;
 
@@ -231,14 +231,14 @@
 								AND tag_id = '$old'")
 							or die(mysql_error());
 										
-				// Ενημέρωση ή διαγραφή ετικετών
+				// Ξ•Ξ½Ξ·ΞΌΞ­ΟΟ‰ΟƒΞ· Ξ® Ξ΄ΞΉΞ±Ξ³ΟΞ±Ο†Ξ® ΞµΟ„ΞΉΞΊΞµΟ„ΟΞ½
 				$result = mysql_query("	SELECT tag_id, 
 										COUNT(picture_id) as Num_of_use
 										FROM picture_tagged
 										WHERE tag_id = '$old'")
 									or die(mysql_error());
 				
-				$row = mysql_fetch_array($result); // Πόσες φορές χρησιμοποιείται η ετικέτα;
+				$row = mysql_fetch_array($result); // Ξ ΟΟƒΞµΟ‚ Ο†ΞΏΟΞ­Ο‚ Ο‡ΟΞ·ΟƒΞΉΞΌΞΏΟ€ΞΏΞΉΞµΞ―Ο„Ξ±ΞΉ Ξ· ΞµΟ„ΞΉΞΊΞ­Ο„Ξ±;
 				$num_pictures = $row['Num_of_use'];
 				echo 'Number of pictures for '.$row['tag_id'].': '.$num_pictures.'<br/>'; 
 				
@@ -256,7 +256,7 @@
 		}				
 	}
 	
-	// Μέθοδος για την επιστροφή των ετικετών των δημοσίων φωτογραφιών.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ξ³ΞΉΞ± Ο„Ξ·Ξ½ ΞµΟ€ΞΉΟƒΟ„ΟΞΏΟ†Ξ® Ο„Ο‰Ξ½ ΞµΟ„ΞΉΞΊΞµΟ„ΟΞ½ Ο„Ο‰Ξ½ Ξ΄Ξ·ΞΌΞΏΟƒΞ―Ο‰Ξ½ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†ΞΉΟΞ½.
 	function tag_info(){
 		$result = mysql_query("	SELECT picture_tagged.tag_id
 								FROM picture_tagged
@@ -286,7 +286,7 @@
 		return $arr;
 	}
 	
-	// Μέθοδος που επιστρέφει το όνομα του αρχείου της φωτογραφίας.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ο€ΞΏΟ… ΞµΟ€ΞΉΟƒΟ„ΟΞ­Ο†ΞµΞΉ Ο„ΞΏ ΟΞ½ΞΏΞΌΞ± Ο„ΞΏΟ… Ξ±ΟΟ‡ΞµΞ―ΞΏΟ… Ο„Ξ·Ο‚ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†Ξ―Ξ±Ο‚.
 	function picture_file_name ($picture_id) {
 		$result = mysql_query("	SELECT file_name 
 								FROM picture
@@ -297,20 +297,20 @@
 		return $row['file_name'];
 	}
 	
-	// Μέθοδος για την διαγραφή μιας φωτογραφίας.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ξ³ΞΉΞ± Ο„Ξ·Ξ½ Ξ΄ΞΉΞ±Ξ³ΟΞ±Ο†Ξ® ΞΌΞΉΞ±Ο‚ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†Ξ―Ξ±Ο‚.
 	function image_delete() {
 		$result = mysql_query("	SELECT tag_id
 								FROM picture_tagged
 								WHERE picture_id = '$form_id'")
 							or die(mysql_error());
 											
-		// Επίστρεφει τα id των ετικετών που είναι συνδεδεμένα με την φωτογραφία.
+		// Ξ•Ο€Ξ―ΟƒΟ„ΟΞµΟ†ΞµΞΉ Ο„Ξ± id Ο„Ο‰Ξ½ ΞµΟ„ΞΉΞΊΞµΟ„ΟΞ½ Ο€ΞΏΟ… ΞµΞ―Ξ½Ξ±ΞΉ ΟƒΟ…Ξ½Ξ΄ΞµΞ΄ΞµΞΌΞ­Ξ½Ξ± ΞΌΞµ Ο„Ξ·Ξ½ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†Ξ―Ξ±.
 		while($row = mysql_fetch_array($result)){ 
 			$photo_tags_id[] = $row['tag_id'];
 		}
 
 		foreach($photo_tags_id as $tag_id){
-			// Πόσες φορές χρησιμοποιείται η ετικέτα.
+			// Ξ ΟΟƒΞµΟ‚ Ο†ΞΏΟΞ­Ο‚ Ο‡ΟΞ·ΟƒΞΉΞΌΞΏΟ€ΞΏΞΉΞµΞ―Ο„Ξ±ΞΉ Ξ· ΞµΟ„ΞΉΞΊΞ­Ο„Ξ±.
 			$result = mysql_query("	SELECT tag_id,
 									COUNT(picture_id) as Num_of_use
 									FROM picture_tagged
@@ -321,7 +321,7 @@
 			$num_pictures = $row['Num_of_use'];
 			$num_pictures--;
 			
-			// Αν χρησιμοποίειται η ετικέτα και μετά τη διαγραφή της φωτογραφίας ανανέωσε τα δεδομένα.			
+			// Ξ‘Ξ½ Ο‡ΟΞ·ΟƒΞΉΞΌΞΏΟ€ΞΏΞ―ΞµΞΉΟ„Ξ±ΞΉ Ξ· ΞµΟ„ΞΉΞΊΞ­Ο„Ξ± ΞΊΞ±ΞΉ ΞΌΞµΟ„Ξ¬ Ο„Ξ· Ξ΄ΞΉΞ±Ξ³ΟΞ±Ο†Ξ® Ο„Ξ·Ο‚ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†Ξ―Ξ±Ο‚ Ξ±Ξ½Ξ±Ξ½Ξ­Ο‰ΟƒΞµ Ο„Ξ± Ξ΄ΞµΞ΄ΞΏΞΌΞ­Ξ½Ξ±.			
 			if($num_pictures > 0){ 
 				mysql_query("	UPDATE picture_tags 
 								SET num_pictures = '$num_pictures'
@@ -334,7 +334,7 @@
 			}
 		}
 		
-		// Διάγραψε και τα δεδομενα απο την βαση.	
+		// Ξ”ΞΉΞ¬Ξ³ΟΞ±ΟΞµ ΞΊΞ±ΞΉ Ο„Ξ± Ξ΄ΞµΞ΄ΞΏΞΌΞµΞ½Ξ± Ξ±Ο€ΞΏ Ο„Ξ·Ξ½ Ξ²Ξ±ΟƒΞ·.	
 		mysql_query("	DELETE FROM picture 
 						WHERE picture_id = '$form_id'")
 					or die(mysql_error()); 
@@ -347,7 +347,7 @@
 					or die(mysql_error());								
 	}
 	
-	// Μέθοδος που επιστρέφει όλες τις δημόσιες ετικέτες.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ο€ΞΏΟ… ΞµΟ€ΞΉΟƒΟ„ΟΞ­Ο†ΞµΞΉ ΟΞ»ΞµΟ‚ Ο„ΞΉΟ‚ Ξ΄Ξ·ΞΌΟΟƒΞΉΞµΟ‚ ΞµΟ„ΞΉΞΊΞ­Ο„ΞµΟ‚.
 	function public_tags() {
 		$result = mysql_query("	SELECT DISTINCT picture_tags.tag_name
 								FROM picture_tagged
@@ -365,7 +365,7 @@
 		return $public_tags;
 	}
 	
-	// Μέθοδος που επιστρέφει τον αριθμό των φωτογραφιών του χρήστη.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ο€ΞΏΟ… ΞµΟ€ΞΉΟƒΟ„ΟΞ­Ο†ΞµΞΉ Ο„ΞΏΞ½ Ξ±ΟΞΉΞΈΞΌΟ Ο„Ο‰Ξ½ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†ΞΉΟΞ½ Ο„ΞΏΟ… Ο‡ΟΞ®ΟƒΟ„Ξ·.
 	function user_num_pictures($user) {
 		$result = mysql_query("	SELECT picture.picture_id 
 								FROM picture 
@@ -377,7 +377,7 @@
 		return $num_row;
 	}
 	
-	// Μέθοδος που χρησιμοποιείται για την ανάκτηση των δεδομένων όλων των φωτογραφιών του χρήστη.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ο€ΞΏΟ… Ο‡ΟΞ·ΟƒΞΉΞΌΞΏΟ€ΞΏΞΉΞµΞ―Ο„Ξ±ΞΉ Ξ³ΞΉΞ± Ο„Ξ·Ξ½ Ξ±Ξ½Ξ¬ΞΊΟ„Ξ·ΟƒΞ· Ο„Ο‰Ξ½ Ξ΄ΞµΞ΄ΞΏΞΌΞ­Ξ½Ο‰Ξ½ ΟΞ»Ο‰Ξ½ Ο„Ο‰Ξ½ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†ΞΉΟΞ½ Ο„ΞΏΟ… Ο‡ΟΞ®ΟƒΟ„Ξ·.
 	function user_pictures($user, $start, $display) {
 		$result = mysql_query("	SELECT picture.picture_id, picture.user_id, picture.file_name, picture.title, picture.publication, picture.description, user.username
 								FROM picture
@@ -392,7 +392,7 @@
 		return $result;
 	}
 
-	// Μέθοδος που επιστρέφει τα σχόλια της φωτογραφίας.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ο€ΞΏΟ… ΞµΟ€ΞΉΟƒΟ„ΟΞ­Ο†ΞµΞΉ Ο„Ξ± ΟƒΟ‡ΟΞ»ΞΉΞ± Ο„Ξ·Ο‚ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†Ξ―Ξ±Ο‚.
 	function picture_comments($picture_id) {
 		$result = mysql_query("	SELECT comment, username, date 
 								FROM comments
@@ -402,7 +402,7 @@
 		return $result;
 	}
 	
-	// Μέθοδος που επιστρέφει τις καλήτερες 10 φωταγραφίες.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ο€ΞΏΟ… ΞµΟ€ΞΉΟƒΟ„ΟΞ­Ο†ΞµΞΉ Ο„ΞΉΟ‚ ΞΊΞ±Ξ»Ξ®Ο„ΞµΟΞµΟ‚ 10 Ο†Ο‰Ο„Ξ±Ξ³ΟΞ±Ο†Ξ―ΞµΟ‚.
 	function top_10() {
 		$result = mysql_query("	SELECT picture.picture_id, picture.file_name, picture.user_id, user.username, picture.total_hits
 								FROM picture
@@ -416,7 +416,7 @@
 		return $result;
 	}
 	
-	// Μέθοδος που επιστρέφει πληροφορίες μιας φωτογραφίας με συγκεκριμένο id
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ο€ΞΏΟ… ΞµΟ€ΞΉΟƒΟ„ΟΞ­Ο†ΞµΞΉ Ο€Ξ»Ξ·ΟΞΏΟ†ΞΏΟΞ―ΞµΟ‚ ΞΌΞΉΞ±Ο‚ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†Ξ―Ξ±Ο‚ ΞΌΞµ ΟƒΟ…Ξ³ΞΊΞµΞΊΟΞΉΞΌΞ­Ξ½ΞΏ id
 	function image_info($picture_id) {
 		$result = mysql_query("	SELECT picture.picture_id, picture.user_id, picture.file_name, picture.title, picture.publication, picture.description, user.username, picture.total_hits, picture.geolocation, picture.lat, picture.lng
 								FROM picture
@@ -429,7 +429,7 @@
 		return $row;
 	}
 	
-	// Μέθοδος που επιστρέφει τις ετικέτες μιας φωτογραφίας.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ο€ΞΏΟ… ΞµΟ€ΞΉΟƒΟ„ΟΞ­Ο†ΞµΞΉ Ο„ΞΉΟ‚ ΞµΟ„ΞΉΞΊΞ­Ο„ΞµΟ‚ ΞΌΞΉΞ±Ο‚ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†Ξ―Ξ±Ο‚.
 	function picture_tags($picture_id) {
 		$tag_result = mysql_query("	SELECT picture_tags.tag_name
 									FROM picture_tags
@@ -441,13 +441,13 @@
 		return $tag_result;
 	}
 	
-	// Μέθοδος που αυξάνει την δημοσιότητα μιας φωτογραφίας.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ο€ΞΏΟ… Ξ±Ο…ΞΎΞ¬Ξ½ΞµΞΉ Ο„Ξ·Ξ½ Ξ΄Ξ·ΞΌΞΏΟƒΞΉΟΟ„Ξ·Ο„Ξ± ΞΌΞΉΞ±Ο‚ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†Ξ―Ξ±Ο‚.
 	function increase_picture_hits($picture_id, $total_hits) {
 		mysql_query("	UPDATE picture SET total_hits = '".$total_hits."' 
 						WHERE picture_id=".$picture_id);
 	}
 	
-	// Μέθοδος που επιστρέφει τα id των φωτογραφιών που ειναι σηματοδοτημένες με την ετικέτα που περιέχει το όρισμα.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ο€ΞΏΟ… ΞµΟ€ΞΉΟƒΟ„ΟΞ­Ο†ΞµΞΉ Ο„Ξ± id Ο„Ο‰Ξ½ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†ΞΉΟΞ½ Ο€ΞΏΟ… ΞµΞΉΞ½Ξ±ΞΉ ΟƒΞ·ΞΌΞ±Ο„ΞΏΞ΄ΞΏΟ„Ξ·ΞΌΞ­Ξ½ΞµΟ‚ ΞΌΞµ Ο„Ξ·Ξ½ ΞµΟ„ΞΉΞΊΞ­Ο„Ξ± Ο€ΞΏΟ… Ο€ΞµΟΞΉΞ­Ο‡ΞµΞΉ Ο„ΞΏ ΟΟΞΉΟƒΞΌΞ±.
 	function search_on_tags($strToken) {
 		$result = mysql_query("	SELECT picture_tagged.picture_id 						
 								FROM picture_tagged
@@ -474,7 +474,7 @@
 		return $result;
 	}
 	
-	// Μέθοδος που δέχεται έναν πίνακα με τα id των φωτογραφιών και επιστρέφει πληροφορίες για αυτές.
+	// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ο€ΞΏΟ… Ξ΄Ξ­Ο‡ΞµΟ„Ξ±ΞΉ Ξ­Ξ½Ξ±Ξ½ Ο€Ξ―Ξ½Ξ±ΞΊΞ± ΞΌΞµ Ο„Ξ± id Ο„Ο‰Ξ½ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†ΞΉΟΞ½ ΞΊΞ±ΞΉ ΞµΟ€ΞΉΟƒΟ„ΟΞ­Ο†ΞµΞΉ Ο€Ξ»Ξ·ΟΞΏΟ†ΞΏΟΞ―ΞµΟ‚ Ξ³ΞΉΞ± Ξ±Ο…Ο„Ξ­Ο‚.
 	function get_picture_info ($ar, $start, $display) {
 		foreach($ar as $val){
 			if(!isset($query)){
