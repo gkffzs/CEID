@@ -1,4 +1,4 @@
-/* ID για την περιοχή στο πάνω μέρος της σελίδας, με τη φωτογραφία και το λογότυπο. */
+/* ID Ξ³ΞΉΞ± Ο„Ξ·Ξ½ Ο€ΞµΟΞΉΞΏΟ‡Ξ® ΟƒΟ„ΞΏ Ο€Ξ¬Ξ½Ο‰ ΞΌΞ­ΟΞΏΟ‚ Ο„Ξ·Ο‚ ΟƒΞµΞ»Ξ―Ξ΄Ξ±Ο‚, ΞΌΞµ Ο„Ξ· Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†Ξ―Ξ± ΞΊΞ±ΞΉ Ο„ΞΏ Ξ»ΞΏΞ³ΟΟ„Ο…Ο€ΞΏ. */
 #header {
 	background-image: url("../images/top_header.png");
 	width: 100%;
@@ -6,33 +6,33 @@
 	margin-top: -15px;
 }
 
-/* ID για τη θέση του λογότυπου */
+/* ID Ξ³ΞΉΞ± Ο„Ξ· ΞΈΞ­ΟƒΞ· Ο„ΞΏΟ… Ξ»ΞΏΞ³ΟΟ„Ο…Ο€ΞΏΟ… */
 #logo{
 	float: left;
 	padding-top: 220px;
 	padding-left: 20px;
 }
 
-/* Καθορίζει τα χαρακτηριστικά του γενικού σώματος της σελίδας. */
+/* ΞΞ±ΞΈΞΏΟΞ―Ξ¶ΞµΞΉ Ο„Ξ± Ο‡Ξ±ΟΞ±ΞΊΟ„Ξ·ΟΞΉΟƒΟ„ΞΉΞΊΞ¬ Ο„ΞΏΟ… Ξ³ΞµΞ½ΞΉΞΊΞΏΟ ΟƒΟΞΌΞ±Ο„ΞΏΟ‚ Ο„Ξ·Ο‚ ΟƒΞµΞ»Ξ―Ξ΄Ξ±Ο‚. */
 body{
     width: 1000px;
     height: 100%;
 	background-color: #788368;
 	margin: 0 auto;
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 }
 
-/* Καθορίζει τα χαρακτηριστικά του κεντρικού σώματος της σελίδας.*/
+/* ΞΞ±ΞΈΞΏΟΞ―Ξ¶ΞµΞΉ Ο„Ξ± Ο‡Ξ±ΟΞ±ΞΊΟ„Ξ·ΟΞΉΟƒΟ„ΞΉΞΊΞ¬ Ο„ΞΏΟ… ΞΊΞµΞ½Ο„ΟΞΉΞΊΞΏΟ ΟƒΟΞΌΞ±Ο„ΞΏΟ‚ Ο„Ξ·Ο‚ ΟƒΞµΞ»Ξ―Ξ΄Ξ±Ο‚.*/
 #main_body{
 	background-color: #FFFAE5;
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 }
 
-/* ID που καθορίζει την εμφάνιση του υποσέλιδου (ή footer) */
+/* ID Ο€ΞΏΟ… ΞΊΞ±ΞΈΞΏΟΞ―Ξ¶ΞµΞΉ Ο„Ξ·Ξ½ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ο„ΞΏΟ… Ο…Ο€ΞΏΟƒΞ­Ξ»ΞΉΞ΄ΞΏΟ… (Ξ® footer) */
 #footer{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 	text-align: center;
 	background-color: #F0BF75;
@@ -41,7 +41,7 @@ body{
 	padding: 5px;
 }
 
-/* Εδώ καθορίζεται η εμφάνιση και συμπεριφορά των συνδέσμων του υποσέλιδου. */
+/* Ξ•Ξ΄Ο ΞΊΞ±ΞΈΞΏΟΞ―Ξ¶ΞµΟ„Ξ±ΞΉ Ξ· ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· ΞΊΞ±ΞΉ ΟƒΟ…ΞΌΟ€ΞµΟΞΉΟ†ΞΏΟΞ¬ Ο„Ο‰Ξ½ ΟƒΟ…Ξ½Ξ΄Ξ­ΟƒΞΌΟ‰Ξ½ Ο„ΞΏΟ… Ο…Ο€ΞΏΟƒΞ­Ξ»ΞΉΞ΄ΞΏΟ…. */
 #footer a:link, #footer a:visited{
 	text-decoration: none;
 	color: #000000;
@@ -51,7 +51,7 @@ body{
 	text-decoration: underline;
 }
 
-/* ID για τον βασικό τίτλο στο πάνω μέρος κάθε σελίδας. */
+/* ID Ξ³ΞΉΞ± Ο„ΞΏΞ½ Ξ²Ξ±ΟƒΞΉΞΊΟ Ο„Ξ―Ο„Ξ»ΞΏ ΟƒΟ„ΞΏ Ο€Ξ¬Ξ½Ο‰ ΞΌΞ­ΟΞΏΟ‚ ΞΊΞ¬ΞΈΞµ ΟƒΞµΞ»Ξ―Ξ΄Ξ±Ο‚. */
 #main_header{
 	font-weight: bold;
 	font-size: 14px;
@@ -64,16 +64,16 @@ body{
 	display : table-cell;
 }
 
-/* Καθορίζει τα χαρακτηριστικά για τα πεδία εισαγωγής στοιχείων. */
+/* ΞΞ±ΞΈΞΏΟΞ―Ξ¶ΞµΞΉ Ο„Ξ± Ο‡Ξ±ΟΞ±ΞΊΟ„Ξ·ΟΞΉΟƒΟ„ΞΉΞΊΞ¬ Ξ³ΞΉΞ± Ο„Ξ± Ο€ΞµΞ΄Ξ―Ξ± ΞµΞΉΟƒΞ±Ξ³Ο‰Ξ³Ξ®Ο‚ ΟƒΟ„ΞΏΞΉΟ‡ΞµΞ―Ο‰Ξ½. */
 input{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
 	margin: 5px;
     padding-left: 2px;
 }
 
-/* Καθορίζει την εμφάνιση των κουμπιών της σελίδας. */
+/* ΞΞ±ΞΈΞΏΟΞ―Ξ¶ΞµΞΉ Ο„Ξ·Ξ½ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ο„Ο‰Ξ½ ΞΊΞΏΟ…ΞΌΟ€ΞΉΟΞ½ Ο„Ξ·Ο‚ ΟƒΞµΞ»Ξ―Ξ΄Ξ±Ο‚. */
 button {
 	font-size: 12px;
 	font-weight: bold;
@@ -85,20 +85,20 @@ button {
 	background-color: #EBEBE0;
 }
 
-/* Εδώ καθορίζονται τα χαρακτηριστικά της πρώτης μπάρας μενού. */
+/* Ξ•Ξ΄Ο ΞΊΞ±ΞΈΞΏΟΞ―Ξ¶ΞΏΞ½Ο„Ξ±ΞΉ Ο„Ξ± Ο‡Ξ±ΟΞ±ΞΊΟ„Ξ·ΟΞΉΟƒΟ„ΞΉΞΊΞ¬ Ο„Ξ·Ο‚ Ο€ΟΟΟ„Ξ·Ο‚ ΞΌΟ€Ξ¬ΟΞ±Ο‚ ΞΌΞµΞ½ΞΏΟ. */
 #main_menu{
 	background-color: #404025;
 }
 
 #main_menu td{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 14px;
 	height: 26px;
 	border: none;
 }
 
 #main_menu a:link, #main_menu a:visited{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 14px;
 	display: block;
 	font-weight: bold;
@@ -116,67 +116,67 @@ button {
 	background-color: #68683C;
 }
 
-/* ID για την εμφάνιση του πεδίου συμπλήρωσης ετικετών. */
+/* ID Ξ³ΞΉΞ± Ο„Ξ·Ξ½ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ο„ΞΏΟ… Ο€ΞµΞ΄Ξ―ΞΏΟ… ΟƒΟ…ΞΌΟ€Ξ»Ξ®ΟΟ‰ΟƒΞ·Ο‚ ΞµΟ„ΞΉΞΊΞµΟ„ΟΞ½. */
 textarea#tags_autocomplete {
 	margin-top: 4px;
 	padding: 2px;
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
 	height: 23px;
 	padding: 2px;
 }
 
-/* ID για την εμφάνιση του πεδίου αναζήτησης ετικετών. */
+/* ID Ξ³ΞΉΞ± Ο„Ξ·Ξ½ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ο„ΞΏΟ… Ο€ΞµΞ΄Ξ―ΞΏΟ… Ξ±Ξ½Ξ±Ξ¶Ξ®Ο„Ξ·ΟƒΞ·Ο‚ ΞµΟ„ΞΉΞΊΞµΟ„ΟΞ½. */
 textarea#search_autocomplete {
 	margin-top: 4px;
 	padding: 2px;
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 	height: 23px;
 	width: 174px;
 	padding: 2px;
 }
 
-/* ID για την εμφάνιση του πεδίου αναζήτησης. */
+/* ID Ξ³ΞΉΞ± Ο„Ξ·Ξ½ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ο„ΞΏΟ… Ο€ΞµΞ΄Ξ―ΞΏΟ… Ξ±Ξ½Ξ±Ξ¶Ξ®Ο„Ξ·ΟƒΞ·Ο‚. */
 textarea#simple_search {
 	margin-top: 4px;
 	padding: 2px;
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 	height: 23px;
 	width: 174px;
 	padding: 2px;
 }
 
-/* ID για την εμφάνιση του πεδίου περιγραφής. */
+/* ID Ξ³ΞΉΞ± Ο„Ξ·Ξ½ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ο„ΞΏΟ… Ο€ΞµΞ΄Ξ―ΞΏΟ… Ο€ΞµΟΞΉΞ³ΟΞ±Ο†Ξ®Ο‚. */
 textarea#description_area {
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 	height: 60px;
 	padding: 2px;
 }
 
-/* Εδώ καθορίζεται η εμφάνιση των πεδίων αναζήτησης στο πλευρικό μενού. */
+/* Ξ•Ξ΄Ο ΞΊΞ±ΞΈΞΏΟΞ―Ξ¶ΞµΟ„Ξ±ΞΉ Ξ· ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ο„Ο‰Ξ½ Ο€ΞµΞ΄Ξ―Ο‰Ξ½ Ξ±Ξ½Ξ±Ξ¶Ξ®Ο„Ξ·ΟƒΞ·Ο‚ ΟƒΟ„ΞΏ Ο€Ξ»ΞµΟ…ΟΞΉΞΊΟ ΞΌΞµΞ½ΞΏΟ. */
 #search_form{
 	width: 226px;
 	height: 34px;
 	text-align: center;
 	text-decoration: none;
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	color: #FFFFFF;
 	font-weight: bold;
 	font-size: 12px;
 	
 }
 
-/* Καθορισμός εμφάνισης μπάρας για τη σύνδεση ενός χρήστη. */
+/* ΞΞ±ΞΈΞΏΟΞΉΟƒΞΌΟΟ‚ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·Ο‚ ΞΌΟ€Ξ¬ΟΞ±Ο‚ Ξ³ΞΉΞ± Ο„Ξ· ΟƒΟΞ½Ξ΄ΞµΟƒΞ· ΞµΞ½ΟΟ‚ Ο‡ΟΞ®ΟƒΟ„Ξ·. */
 #log_form{
 	width: 1000px;
 	height: 30px;
 	text-align: right;
 	text-decoration: none;
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	color: #FFFFFF;
 	font-weight: bold;
 	font-size: 12px;
@@ -184,7 +184,7 @@ textarea#description_area {
 }
 
 #log_form a:link, #log_form  a:visited{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	color: #000000;
 	font-size: 12px;
 	font-weight: bold;
@@ -197,9 +197,9 @@ textarea#description_area {
 	text-decoration: underline;
 }
 
-/* Καθορισμός εμφάνισης της φόρμας εγγραφής χρήστη. */
+/* ΞΞ±ΞΈΞΏΟΞΉΟƒΞΌΟΟ‚ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·Ο‚ Ο„Ξ·Ο‚ Ο†ΟΟΞΌΞ±Ο‚ ΞµΞ³Ξ³ΟΞ±Ο†Ξ®Ο‚ Ο‡ΟΞ®ΟƒΟ„Ξ·. */
 #register_form th{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	color: #FFFFFF;
@@ -208,7 +208,7 @@ textarea#description_area {
 }
 
 #register_form td{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
 	color: #000000;
@@ -218,9 +218,9 @@ textarea#description_area {
 	padding-right: 5px;
 }
 
-/* Καθορισμός εμφάνισης του ενημερωτικού μηνύματος. */
+/* ΞΞ±ΞΈΞΏΟΞΉΟƒΞΌΟΟ‚ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·Ο‚ Ο„ΞΏΟ… ΞµΞ½Ξ·ΞΌΞµΟΟ‰Ο„ΞΉΞΊΞΏΟ ΞΌΞ·Ξ½ΟΞΌΞ±Ο„ΞΏΟ‚. */
 #info_message td{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
 	color: #000000;
@@ -231,7 +231,7 @@ textarea#description_area {
 	text-align: center;
 }
 
-/* Καθορισμός εμφάνισης του άλλου τύπου ενημερωτικού μηνύματος. */
+/* ΞΞ±ΞΈΞΏΟΞΉΟƒΞΌΟΟ‚ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·Ο‚ Ο„ΞΏΟ… Ξ¬Ξ»Ξ»ΞΏΟ… Ο„ΟΟ€ΞΏΟ… ΞµΞ½Ξ·ΞΌΞµΟΟ‰Ο„ΞΉΞΊΞΏΟ ΞΌΞ·Ξ½ΟΞΌΞ±Ο„ΞΏΟ‚. */
 #val_message {
 	font-size: 12px;
 	color: black;
@@ -243,7 +243,7 @@ textarea#description_area {
 	display : table-cell;
 }
 
-/* Πλαίσιο στο οποίο εκτυπώνεται το tag cloud. */
+/* Ξ Ξ»Ξ±Ξ―ΟƒΞΉΞΏ ΟƒΟ„ΞΏ ΞΏΟ€ΞΏΞ―ΞΏ ΞµΞΊΟ„Ο…Ο€ΟΞ½ΞµΟ„Ξ±ΞΉ Ο„ΞΏ tag cloud. */
 #wrapper {
 	width: 226px;
 	text-align: justify;
@@ -251,7 +251,7 @@ textarea#description_area {
 	padding: 10px;
 }
 
-/* Καθορισμός μορφοποίησης για την εμφάνιση των συνδέσμων και των στοιχείων της σελιδοποίησης. */
+/* ΞΞ±ΞΈΞΏΟΞΉΟƒΞΌΟΟ‚ ΞΌΞΏΟΟ†ΞΏΟ€ΞΏΞ―Ξ·ΟƒΞ·Ο‚ Ξ³ΞΉΞ± Ο„Ξ·Ξ½ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ο„Ο‰Ξ½ ΟƒΟ…Ξ½Ξ΄Ξ­ΟƒΞΌΟ‰Ξ½ ΞΊΞ±ΞΉ Ο„Ο‰Ξ½ ΟƒΟ„ΞΏΞΉΟ‡ΞµΞ―Ο‰Ξ½ Ο„Ξ·Ο‚ ΟƒΞµΞ»ΞΉΞ΄ΞΏΟ€ΞΏΞ―Ξ·ΟƒΞ·Ο‚. */
 #pagination_links table{
 	width: 680px;
 }
@@ -259,7 +259,7 @@ textarea#description_area {
 #pagination_links td{
 	width: 211px;
 	text-align: center;
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-weight: bold;
 	color: black;
 	font-size: 12px;
@@ -268,7 +268,7 @@ textarea#description_area {
 }
 
 #pagination_links a:link, #pagination_links a:visited {
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-weight: bold;
 	font-size: 12px;
 	text-decoration: none;
@@ -276,23 +276,23 @@ textarea#description_area {
 }
 
 #pagination_links a:hover, #pagination_links a:active {
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-weight: bold;
 	font-size: 12px;
 	text-decoration: none;
 	color: black;
 }
 
-/* Χαρακτηριστικά του tag cloud */
+/* Ξ§Ξ±ΟΞ±ΞΊΟ„Ξ·ΟΞΉΟƒΟ„ΞΉΞΊΞ¬ Ο„ΞΏΟ… tag cloud */
 .tag_cloud {
 	padding: 2px;
 	text-decoration: none;
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 }
 
 .tag_cloud:link  {
 	color: #00264D;
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 }
 
 .tag_cloud:visited {
@@ -307,7 +307,7 @@ textarea#description_area {
 	color: #FFD77A;
 }
 
-/* Για την εμφάνιση των εικόνων στο album.php. */
+/* Ξ“ΞΉΞ± Ο„Ξ·Ξ½ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ο„Ο‰Ξ½ ΞµΞΉΞΊΟΞ½Ο‰Ξ½ ΟƒΟ„ΞΏ album.php. */
 .thumbnail img{
 	width: 150px;
 	height: 150px;
@@ -318,7 +318,7 @@ textarea#description_area {
 	opacity: 0.8;
 }
 
-/* Για την εμφάνιση των 10 δημοφιλέστερων εικόνων. */
+/* Ξ“ΞΉΞ± Ο„Ξ·Ξ½ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ο„Ο‰Ξ½ 10 Ξ΄Ξ·ΞΌΞΏΟ†ΞΉΞ»Ξ­ΟƒΟ„ΞµΟΟ‰Ξ½ ΞµΞΉΞΊΟΞ½Ο‰Ξ½. */
 #top_10_table table{
 	border: none;
 	width: 180px;
@@ -333,7 +333,7 @@ textarea#description_area {
 	opacity: 0.8;
 }
 
-/* Για την εμφάνιση των εικόνων στα αποτελέσματα αναζήτησης. */
+/* Ξ“ΞΉΞ± Ο„Ξ·Ξ½ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ο„Ο‰Ξ½ ΞµΞΉΞΊΟΞ½Ο‰Ξ½ ΟƒΟ„Ξ± Ξ±Ο€ΞΏΟ„ΞµΞ»Ξ­ΟƒΞΌΞ±Ο„Ξ± Ξ±Ξ½Ξ±Ξ¶Ξ®Ο„Ξ·ΟƒΞ·Ο‚. */
 .thumbnail_search img{
 	width: 80px;
 	height: 80px;
@@ -344,25 +344,25 @@ textarea#description_area {
 	opacity: 0.8;
 }
 
-/* Αλλαγή εμφάνισης για εικονίδια διαγραφής και επεξεργασίας εικόνας. */
+/* Ξ‘Ξ»Ξ»Ξ±Ξ³Ξ® ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·Ο‚ Ξ³ΞΉΞ± ΞµΞΉΞΊΞΏΞ½Ξ―Ξ΄ΞΉΞ± Ξ΄ΞΉΞ±Ξ³ΟΞ±Ο†Ξ®Ο‚ ΞΊΞ±ΞΉ ΞµΟ€ΞµΞΎΞµΟΞ³Ξ±ΟƒΞ―Ξ±Ο‚ ΞµΞΉΞΊΟΞ½Ξ±Ο‚. */
 .menu_images img:hover{
 	opacity: 0.8;
 }
 
-/* Κώδικας για την εμφάνιση αποσιωπητικών σε τίτλους εικόνων μεγάλου μήκους. */
+/* ΞΟΞ΄ΞΉΞΊΞ±Ο‚ Ξ³ΞΉΞ± Ο„Ξ·Ξ½ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ξ±Ο€ΞΏΟƒΞΉΟ‰Ο€Ξ·Ο„ΞΉΞΊΟΞ½ ΟƒΞµ Ο„Ξ―Ο„Ξ»ΞΏΟ…Ο‚ ΞµΞΉΞΊΟΞ½Ο‰Ξ½ ΞΌΞµΞ³Ξ¬Ξ»ΞΏΟ… ΞΌΞ®ΞΊΞΏΟ…Ο‚. */
 div.text_to_shorten {
 	white-space: nowrap; 
 	width: 12em; 
 	overflow: hidden;
 }
 
-/* Καθορισμός εμφάνισης και στοίχισης των εικόνων στο album.php. */
+/* ΞΞ±ΞΈΞΏΟΞΉΟƒΞΌΟΟ‚ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·Ο‚ ΞΊΞ±ΞΉ ΟƒΟ„ΞΏΞ―Ο‡ΞΉΟƒΞ·Ο‚ Ο„Ο‰Ξ½ ΞµΞΉΞΊΟΞ½Ο‰Ξ½ ΟƒΟ„ΞΏ album.php. */
 #album_images table{
 	border: none;
 }
 
 #album_images td{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 	color: white; 
 	background-color: #CC99B3;
@@ -370,7 +370,7 @@ div.text_to_shorten {
 }
 
 #album_images a:link, #album_images a:visited{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	text-decoration: none;
 	color: #FFFFFF;
 }
@@ -379,20 +379,20 @@ div.text_to_shorten {
 	text-decoration: none;
 }
 
-/* Καθορισμός εμφάνισης και στοίχισης των εικόνων στην αναζήτηση. */
+/* ΞΞ±ΞΈΞΏΟΞΉΟƒΞΌΟΟ‚ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·Ο‚ ΞΊΞ±ΞΉ ΟƒΟ„ΞΏΞ―Ο‡ΞΉΟƒΞ·Ο‚ Ο„Ο‰Ξ½ ΞµΞΉΞΊΟΞ½Ο‰Ξ½ ΟƒΟ„Ξ·Ξ½ Ξ±Ξ½Ξ±Ξ¶Ξ®Ο„Ξ·ΟƒΞ·. */
 #search_images table{
 	border: none;
 }
 
 #search_images td{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 	color: black;
 	padding: 3px;
 }
 
 #search_images a:link, #search_images a:visited{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	text-decoration: none;
 	color: #000000;
 }
@@ -402,13 +402,13 @@ div.text_to_shorten {
 	color: #B80000;
 }
 
-/* Καθορισμός εμφάνισης των στοιχείων μιας εικόνας. */
+/* ΞΞ±ΞΈΞΏΟΞΉΟƒΞΌΟΟ‚ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·Ο‚ Ο„Ο‰Ξ½ ΟƒΟ„ΞΏΞΉΟ‡ΞµΞ―Ο‰Ξ½ ΞΌΞΉΞ±Ο‚ ΞµΞΉΞΊΟΞ½Ξ±Ο‚. */
 #desc_table table{
 	border: none;
 }
 
 #desc_table td{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 	color: black; 
 	background-color: #F4D7EA;
@@ -418,7 +418,7 @@ div.text_to_shorten {
 }
 
 #desc_table a:link, #desc_table a:visited{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	text-decoration: none;
 	color: #000000;
 }
@@ -428,14 +428,14 @@ div.text_to_shorten {
 	color: #B80000;
 }
 
-/* Καθορισμός εμφάνισης πλαισίου κατά την επεξεργασία των στοιχείων μιας εικόνας. */
+/* ΞΞ±ΞΈΞΏΟΞΉΟƒΞΌΟΟ‚ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·Ο‚ Ο€Ξ»Ξ±ΞΉΟƒΞ―ΞΏΟ… ΞΊΞ±Ο„Ξ¬ Ο„Ξ·Ξ½ ΞµΟ€ΞµΞΎΞµΟΞ³Ξ±ΟƒΞ―Ξ± Ο„Ο‰Ξ½ ΟƒΟ„ΞΏΞΉΟ‡ΞµΞ―Ο‰Ξ½ ΞΌΞΉΞ±Ο‚ ΞµΞΉΞΊΟΞ½Ξ±Ο‚. */
 #edit_table table{
 	border: none;
 	cellspacing: 0;
 }
 
 #edit_table td{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 	color: black; 
 	background-color: #F4D7EA;
@@ -444,7 +444,7 @@ div.text_to_shorten {
 	padding-right: 5px;
 }
 
-/* Για το πλαίσιο κατά το ανέβασμα εικόνων. */
+/* Ξ“ΞΉΞ± Ο„ΞΏ Ο€Ξ»Ξ±Ξ―ΟƒΞΉΞΏ ΞΊΞ±Ο„Ξ¬ Ο„ΞΏ Ξ±Ξ½Ξ­Ξ²Ξ±ΟƒΞΌΞ± ΞµΞΉΞΊΟΞ½Ο‰Ξ½. */
 #upload_table table{
 	border: none;
 	cellspacing: 0;
@@ -452,7 +452,7 @@ div.text_to_shorten {
 }
 
 #upload_table td{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 	color: black; 
 	background-color: #F4D7EA;
@@ -461,13 +461,13 @@ div.text_to_shorten {
 	padding-right: 10px;
 }
 
-/* Καθορισμός εμφάνισης των σχολίων μιας εικόνας. */
+/* ΞΞ±ΞΈΞΏΟΞΉΟƒΞΌΟΟ‚ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·Ο‚ Ο„Ο‰Ξ½ ΟƒΟ‡ΞΏΞ»Ξ―Ο‰Ξ½ ΞΌΞΉΞ±Ο‚ ΞµΞΉΞΊΟΞ½Ξ±Ο‚. */
 #comments table{
 	border-collapse: collapse;
 }
 
 #comments td{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 	color: black; 
 	background-color: #E3E3E3;
@@ -477,7 +477,7 @@ div.text_to_shorten {
 }
 
 #comments th{
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 	color: black;
 	text-align: left;
@@ -486,9 +486,9 @@ div.text_to_shorten {
 	padding-left: 10px;
 }
 
-/* Καθορισμός για την εμφάνιση της γραφικής μπάρας διαθέσιμου χώρου. */
+/* ΞΞ±ΞΈΞΏΟΞΉΟƒΞΌΟΟ‚ Ξ³ΞΉΞ± Ο„Ξ·Ξ½ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ο„Ξ·Ο‚ Ξ³ΟΞ±Ο†ΞΉΞΊΞ®Ο‚ ΞΌΟ€Ξ¬ΟΞ±Ο‚ Ξ΄ΞΉΞ±ΞΈΞ­ΟƒΞΉΞΌΞΏΟ… Ο‡ΟΟΞΏΟ…. */
 .graph td {
-	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-family: β€Trebuchet MSβ€™, Helvetica, sans-serif;
 	font-size: 12px;
 }
 
@@ -509,7 +509,7 @@ div.text_to_shorten {
 	height: 1em;
 }
 
-/* Προσδιορισμός εμφάνισης στοιχείων για τη λειτουργία του autocomplete. */
+/* Ξ ΟΞΏΟƒΞ΄ΞΉΞΏΟΞΉΟƒΞΌΟΟ‚ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·Ο‚ ΟƒΟ„ΞΏΞΉΟ‡ΞµΞ―Ο‰Ξ½ Ξ³ΞΉΞ± Ο„Ξ· Ξ»ΞµΞΉΟ„ΞΏΟ…ΟΞ³Ξ―Ξ± Ο„ΞΏΟ… autocomplete. */
 ul {
 	background-color: #E3EBBC;
 	margin-top: 9px;
