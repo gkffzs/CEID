@@ -1,17 +1,17 @@
-// Μέθοδος για την εμφάνιση του χάρτη.
+// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ξ³ΞΉΞ± Ο„Ξ·Ξ½ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Ο„ΞΏΟ… Ο‡Ξ¬ΟΟ„Ξ·.
 function display_map(){
-	// Προσδιορισμός των χαρακτηριστικών του χάρτη.
+	// Ξ ΟΞΏΟƒΞ΄ΞΉΞΏΟΞΉΟƒΞΌΟΟ‚ Ο„Ο‰Ξ½ Ο‡Ξ±ΟΞ±ΞΊΟ„Ξ·ΟΞΉΟƒΟ„ΞΉΞΊΟΞ½ Ο„ΞΏΟ… Ο‡Ξ¬ΟΟ„Ξ·.
 	var myOptions={
 		zoom: 12,
 		center: latlng,
 		mapTypeId: google.maps.MapTypeId.ROADMAP
 	};
 	
-	// Δημιουργία του χάρτη και ενός infoWindow.
+	// Ξ”Ξ·ΞΌΞΉΞΏΟ…ΟΞ³Ξ―Ξ± Ο„ΞΏΟ… Ο‡Ξ¬ΟΟ„Ξ· ΞΊΞ±ΞΉ ΞµΞ½ΟΟ‚ infoWindow.
 	var map=new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 	var infoWindow = new google.maps.InfoWindow;
 	
-	// Κάλεσμα μεθόδου για την εισαγωγή των στοιχείων των δημόσιων φωτογραφιών από ένα αρχείο XML.
+	// ΞΞ¬Ξ»ΞµΟƒΞΌΞ± ΞΌΞµΞΈΟΞ΄ΞΏΟ… Ξ³ΞΉΞ± Ο„Ξ·Ξ½ ΞµΞΉΟƒΞ±Ξ³Ο‰Ξ³Ξ® Ο„Ο‰Ξ½ ΟƒΟ„ΞΏΞΉΟ‡ΞµΞ―Ο‰Ξ½ Ο„Ο‰Ξ½ Ξ΄Ξ·ΞΌΟΟƒΞΉΟ‰Ξ½ Ο†Ο‰Ο„ΞΏΞ³ΟΞ±Ο†ΞΉΟΞ½ Ξ±Ο€Ο Ξ­Ξ½Ξ± Ξ±ΟΟ‡ΞµΞ―ΞΏ XML.
 	downloadUrl("gen_xml.php", function(data) {
 		var xml = data.responseXML;
 		var markers = xml.documentElement.getElementsByTagName("marker");
@@ -30,13 +30,13 @@ function display_map(){
 				icon: 'http://localhost/images/icon_map.png'
 			});
 			
-			// Σύνδεση marker με infoWindow.
+			// Ξ£ΟΞ½Ξ΄ΞµΟƒΞ· marker ΞΌΞµ infoWindow.
 			bindInfoWindow(marker, map, infoWindow, html);
 		}
 	});
 }
 
-// Μέθοδος για την λήψη στοιχείων από αρχείο XML.
+// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ξ³ΞΉΞ± Ο„Ξ·Ξ½ Ξ»Ξ®ΟΞ· ΟƒΟ„ΞΏΞΉΟ‡ΞµΞ―Ο‰Ξ½ Ξ±Ο€Ο Ξ±ΟΟ‡ΞµΞ―ΞΏ XML.
 function downloadUrl(url, callback) {
 	var request = window.ActiveXObject ?
 		new ActiveXObject('Microsoft.XMLHTTP') :
@@ -53,7 +53,7 @@ function downloadUrl(url, callback) {
 	request.send(null);
 }
 
-// Μέθοδος για την ένωση marker και infoWindow.
+// ΞΞ­ΞΈΞΏΞ΄ΞΏΟ‚ Ξ³ΞΉΞ± Ο„Ξ·Ξ½ Ξ­Ξ½Ο‰ΟƒΞ· marker ΞΊΞ±ΞΉ infoWindow.
 function bindInfoWindow(marker, map, infoWindow, html) {
 	google.maps.event.addListener(marker, 'click', function() {
 		infoWindow.setContent(html);
@@ -61,12 +61,12 @@ function bindInfoWindow(marker, map, infoWindow, html) {
 	});
 }
 
-// Κενή μέθοδος.
+// ΞΞµΞ½Ξ® ΞΌΞ­ΞΈΞΏΞ΄ΞΏΟ‚.
 function doNothing() {}
 
 var latlng;
 
-// Έλεγχοι για τον προσδιορισμό της τοποθεσίας του κέντρου του χάρτη.
+// ΞΞ»ΞµΞ³Ο‡ΞΏΞΉ Ξ³ΞΉΞ± Ο„ΞΏΞ½ Ο€ΟΞΏΟƒΞ΄ΞΉΞΏΟΞΉΟƒΞΌΟ Ο„Ξ·Ο‚ Ο„ΞΏΟ€ΞΏΞΈΞµΟƒΞ―Ξ±Ο‚ Ο„ΞΏΟ… ΞΊΞ­Ξ½Ο„ΟΞΏΟ… Ο„ΞΏΟ… Ο‡Ξ¬ΟΟ„Ξ·.
 if (navigator.geolocation){
 	function displayPosition(position) {
 		latlng=new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
@@ -74,12 +74,12 @@ if (navigator.geolocation){
 	}
 
 	function errorFunction(position){
-		latlng=new google.maps.LatLng(38.247482, 21.733662); // Συντεταγμένες της Πάτρας.
+		latlng=new google.maps.LatLng(38.247482, 21.733662); // Ξ£Ο…Ξ½Ο„ΞµΟ„Ξ±Ξ³ΞΌΞ­Ξ½ΞµΟ‚ Ο„Ξ·Ο‚ Ξ Ξ¬Ο„ΟΞ±Ο‚.
 		display_map();
 	}
 
 	navigator.geolocation.getCurrentPosition(displayPosition, errorFunction);
 }else{
-	latlng=new google.maps.LatLng(38.247482, 21.733662); // Συντεταγμένες της Πάτρας.
+	latlng=new google.maps.LatLng(38.247482, 21.733662); // Ξ£Ο…Ξ½Ο„ΞµΟ„Ξ±Ξ³ΞΌΞ­Ξ½ΞµΟ‚ Ο„Ξ·Ο‚ Ξ Ξ¬Ο„ΟΞ±Ο‚.
 	display_map();
 }
