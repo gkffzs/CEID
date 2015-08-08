@@ -3,7 +3,7 @@ Current repository includes several projects, scripts and programs that I've wri
 as an undergraduate student of the [Computer Engineering & Informatics Department](https://www.ceid.upatras.gr/)
 (CEID) at the [University of Patras](http://www.upatras.gr/). These are projects that, on the one hand, I was allowed
 to upload, and on the other hand, their being online on GitHub as standalones was meaningful. All descriptions are in 
-English, although some comments and most reports and assignments are in Greek. In general, there will be many updates.
+English, although some comments and most reports and assignments are in Greek.
 
 #### List of courses
 The following list is not an exhaustive list, but a list of selected projects for a few courses. The complete course
@@ -17,7 +17,7 @@ the course's repository, while the last one points to the course's website. So, 
 | [023565](https://github.com/gkffzs/CEID/tree/master/023565)      | Languages Technology | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23565) |
 | [23Y134](https://github.com/gkffzs/CEID/tree/master/23Y134)      | Object Oriented Programming I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5134) |
 | [23Y231](https://github.com/gkffzs/CEID/tree/master/23Y231)      | Object Oriented Programming II | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5231) |
-| 23Y330      | Operating Systems I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5330) |
+| [23Y330](https://github.com/gkffzs/CEID/tree/master/23Y330)      | Operating Systems I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5330) |
 | [23330E](https://github.com/gkffzs/CEID/tree/master/23330E)      | Operating Systems Laboratory | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23330%CE%95) |
 | [23Y132](https://github.com/gkffzs/CEID/tree/master/23Y132)      | Principles of Programming Languages & Compilers | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5132) |
 | [23Y343](https://github.com/gkffzs/CEID/tree/master/23Y343)      | Scientific Calculation I | [:link:](https://www.ceid.upatras.gr/en/undergraduate/courses/23%CE%A5343) |
