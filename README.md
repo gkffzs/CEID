@@ -8,7 +8,8 @@ English, although some comments and most reports and assignments are in Greek.
 #### List of courses
 The following list is not an exhaustive list, but a list of selected projects for a few courses. The complete course
 list can be found [here](https://www.ceid.upatras.gr/en/undergraduate/courses). Note that the first column points to
-the course's repository, while the last one points to the course's website. So, in alphabetical order:
+the course's repository, the second one contains the name of the course, the third one points to the course's website
+and the last one refers to what technologies were used for each course. So, in alphabetical order:
 
 | Repository | Course name                                               | Site | Used |
 |:-------------:| -------------------------------------------- |:-----------------------------:|:----------|
